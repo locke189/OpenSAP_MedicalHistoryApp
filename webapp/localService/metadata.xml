@@ -1,0 +1,110 @@
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="Health">
+            <EntityType Name="Patient">
+                <Key>
+                    <PropertyRef Name="PatientID"/>
+                </Key>
+                <Property Name="PatientID" Type="Edm.String" MaxLength="10" Nullable="false"/>
+                <Property Name="FirstName" Type="Edm.String"/>
+                <Property Name="LastName" Type="Edm.String"/>
+                <Property Name="DateOfBirth"  Type="Edm.DateTime" Precision="7" />
+                <Property Name="Country" Type="Edm.String"/>
+                <Property Name="City" Type="Edm.String"/>
+                <Property Name="Email" Type="Edm.String"/>
+                <Property Name="Address" Type="Edm.String"/>
+                <Property Name="Telephone" Type="Edm.String"/>
+                <Property Name="Gender" Type="Edm.String"/>
+                <Property Name="Insurance" Type="Edm.String"/>
+                <Property Name="RH" Type="Edm.String"/>
+                <Property Name="Allegies" Type="Edm.String"/>
+                <Property Name="PhotoURL" Type="Edm.String"/>
+                <NavigationProperty FromRole="Patient" Name="MedicalHistory" Relationship="Health.FK_Patient_MedicalHistory" ToRole="MedicalHistory" />
+            </EntityType>
+            <EntityType Name="MedicalHistory">
+                <Key>
+                    <PropertyRef Name="MedicalHistoryID"/>
+                </Key>
+                <Property Name="MedicalHistoryID" Type="Edm.String" MaxLength="10" Nullable="false"/>
+                <Property Name="PatientID" Type="Edm.String" MaxLength="10" Nullable="false"/>
+                <Property Name="Location" Type="Edm.String"/>
+                <Property Name="Physician" Type="Edm.String"/>
+                <Property Name="Date" Type="Edm.DateTime" Precision="7"/>
+                <Property Name="Time" Type="Edm.Time"/>
+                <Property Name="LabCode" Type="Edm.String"/>
+                <!-- This property should be an entity-->
+                <Property Name="LabAttachment" Type="Edm.String"/>
+                <Property Name="ExaminationAnalysis" Type="Edm.String"/>
+                <Property Name="ExaminationAttachments" Type="Edm.String"/>
+                <!-- This properties should be entities-->
+                <Property Name="Diagnostic" Type="Edm.String"/>
+                <Property Name="DiagnosticCode" Type="Edm.String"/>
+                <Property Name="DiagnosticDescription" Type="Edm.String"/>
+                <Property Name="DiagnosticAnalysis" Type="Edm.String"/>
+                <Property Name="PrescriptionMedicine" Type="Edm.String"/>
+                <Property Name="PrescriptionDosage" Type="Edm.String"/>
+                <Property Name="PrescriptionDescription" Type="Edm.String"/>
+                <Property Name="Control" Type="Edm.String"/>
+                <Property Name="ControlCode" Type="Edm.String"/>
+                <Property Name="ControlDescription" Type="Edm.String"/>
+                <Property Name="PrescriptionAdditionalInformation" Type="Edm.String"/>
+                <NavigationProperty FromRole="MedicalHistory" Name="Patient" Relationship="Health.FK_Patient_MedicalHistory" ToRole="Patient" />
+            </EntityType>
+            <EntityType Name="Appointment">
+                <Key>
+                    <PropertyRef Name="AppointmentID"/>
+                </Key>
+                <Property Name="AppointmentID" Type="Edm.String" MaxLength="10" Nullable="false"/>
+                <Property Name="PatientID" Type="Edm.String" MaxLength="10" Nullable="false"/>
+                <Property Name="Location" Type="Edm.String"/>
+                <Property Name="Date" Type="Edm.DateTime"/>
+                <Property Name="Time" Type="Edm.Time"/>
+                <Property Name="Physician" Type="Edm.String"/>
+                <Property Name="Status" Type="Edm.String"/>
+                <NavigationProperty FromRole="Appointment" Name="Patient" Relationship="Health.FK_Patient_Appointment" ToRole="Patient" />
+            </EntityType>
+            <Association Name="FK_Patient_MedicalHistory">
+                <End Multiplicity="1" Role="Patient" Type="Health.Patient"/>
+                <End Multiplicity="*" Role="MedicalHistory" Type="Health.MedicalHistory"/>
+                <ReferentialConstraint>
+                    <Principal Role="Patient">
+                        <PropertyRef Name="PatientID"/>
+                    </Principal>
+                    <Dependent Role="MedicalHistory">
+                        <PropertyRef Name="PatientID"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_Patient_Appointment">
+                <End Multiplicity="1" Role="Patient" Type="Health.Patient"/>
+                <End Multiplicity="*" Role="Appointment" Type="Health.Appointment"/>
+                <ReferentialConstraint>
+                    <Principal Role="Patient">
+                        <PropertyRef Name="PatientID"/>
+                    </Principal>
+                    <Dependent Role="Appointment">
+                        <PropertyRef Name="PatientID"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="HealthEntities" m:IsDefaultEntityContainer="true"
+                xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+                <EntitySet EntityType="Health.Patient" Name="Patients"/>
+                <EntitySet EntityType="Health.MedicalHistory" Name="MedicalHistories"/>
+                <EntitySet EntityType="Health.Appointment" Name="Appointments"/>
+                <AssociationSet Association="Health.FK_Patient_Appointment" Name="AP_TO_PT_AssocSet">
+                    <End EntitySet="Patients" Role="Patient"/>
+                    <End EntitySet="Appointments" Role="Appointment"/>
+                </AssociationSet>
+                <AssociationSet Association="Health.FK_Patient_MedicalHistory" Name="MH_TO_PT_AssocSet">
+                    <End EntitySet="Patients" Role="Patient"/>
+                    <End EntitySet="MedicalHistories" Role="MedicalHistory"/>
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
