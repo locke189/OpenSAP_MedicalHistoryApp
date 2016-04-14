@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.worklist"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>worklistTitle}">
+				<content>
+					
+					
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

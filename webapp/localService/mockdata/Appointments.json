@@ -1,0 +1,171 @@
+[{
+	"AppointmentID": "1",
+	"PatientID": "1",
+	"Location": "Location 1",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT12H2M1S",
+	"Physician": "Physician 1",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 1')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 1')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "2",
+	"PatientID": "4",
+	"Location": "Location 2",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT20H26M56S",
+	"Physician": "Physician 2",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 2')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 2')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "3",
+	"PatientID": "5",
+	"Location": "Location 3",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT7H51M51S",
+	"Physician": "Physician 3",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 3')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 3')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "4",
+	"PatientID": "2",
+	"Location": "Location 4",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT19H8M32S",
+	"Physician": "Physician 4",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 4')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 4')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "5",
+	"PatientID": "4",
+	"Location": "Location 5",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT22H12M7S",
+	"Physician": "Physician 5",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 5')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 5')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "6",
+	"PatientID": "2",
+	"Location": "Location 6",
+	"Date": "/Date(1459918800000)/",
+	"Time": "PT2H14M38S",
+	"Physician": "Physician 6",
+	"Status": "Cancelled",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 6')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 6')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "7",
+	"PatientID": "1",
+	"Location": "Location 7",
+	"Date": "/Date(1460005200000)/",
+	"Time": "PT14H22M31S",
+	"Physician": "Physician 7",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 7')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 7')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "8",
+	"PatientID": "5",
+	"Location": "Location 8",
+	"Date": "/Date(1460005200000)/",
+	"Time": "PT18H3M58S",
+	"Physician": "Physician 8",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 8')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 8')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "9",
+	"PatientID": "10",
+	"Location": "Location 9",
+	"Date": "/Date(1460091600000)/",
+	"Time": "PT22H5M30S",
+	"Physician": "Physician 9",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 9')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 9')/Patient"
+		}
+	}
+}, {
+	"AppointmentID": "10",
+	"PatientID": "8",
+	"Location": "Location 10",
+	"Date": "/Date(1460091600000)/",
+	"Time": "PT20H47M1S",
+	"Physician": "Physician 10",
+	"Status": "Confirmed",
+	"__metadata": {
+		"uri": "Appointments('AppointmentID 10')",
+		"type": "Health.Appointment"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "Appointments('AppointmentID 10')/Patient"
+		}
+	}
+}]

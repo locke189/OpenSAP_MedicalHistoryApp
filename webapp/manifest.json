@@ -41,10 +41,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_bluecrystal"
-		]
+		"supportedThemes": ["sap_hcb", "sap_bluecrystal"]
 	},
 	"sap.ui5": {
 		"_version": "1.2.0",
@@ -96,36 +93,19 @@
 				},
 				"async": true
 			},
-			"routes": [
-				{
-					"pattern": "",
-					"name": "worklist",
-					"target": "worklist"
-				},
-				{
-					"pattern": "Appointments/{objectId}",
-					"name": "object",
-					"target": "object"
-				}
-			],
+			"routes": [{
+				"pattern": "",
+				"name": "worklist",
+				"target": "worklist"
+			}],
 			"targets": {
 				"worklist": {
-					"viewName": "Worklist",
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": "true",
+					"viewName": "worklist",
 					"viewId": "worklist",
 					"viewLevel": 1
-				},
-				"object": {
-					"viewName": "Object",
-					"viewId": "object",
-					"viewLevel": 2
-				},
-				"objectNotFound": {
-					"viewName": "ObjectNotFound",
-					"viewId": "objectNotFound"
-				},
-				"notFound": {
-					"viewName": "NotFound",
-					"viewId": "notFound"
 				}
 			}
 		}

@@ -1,0 +1,1551 @@
+[{
+	"MedicalHistoryID": "1",
+	"PatientID": "10",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 1",
+	"Date": "/Date(1428120481000)/",
+	"Time": "PT13H58M15S",
+	"LabCode": "LabCode 1",
+	"LabAttachment": "LabAttachment 1",
+	"ExaminationAnalysis": "ExaminationAnalysis 1",
+	"ExaminationAttachments": "ExaminationAttachments 1",
+	"Diagnostic": "Diagnostic 1",
+	"DiagnosticCode": "DiagnosticCode 1",
+	"DiagnosticDescription": "DiagnosticDescription 1",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 1",
+	"PrescriptionMedicine": "PrescriptionMedicine 1",
+	"PrescriptionDosage": "PrescriptionDosage 1",
+	"PrescriptionDescription": "PrescriptionDescription 1",
+	"Control": "Control 1",
+	"ControlCode": "ControlCode 1",
+	"ControlDescription": "ControlDescription 1",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 1",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 1')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 1')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "2",
+	"PatientID": "9",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 2",
+	"Date": "/Date(1436069281000)/",
+	"Time": "PT19H21M16S",
+	"LabCode": "LabCode 2",
+	"LabAttachment": "LabAttachment 2",
+	"ExaminationAnalysis": "ExaminationAnalysis 2",
+	"ExaminationAttachments": "ExaminationAttachments 2",
+	"Diagnostic": "Diagnostic 2",
+	"DiagnosticCode": "DiagnosticCode 2",
+	"DiagnosticDescription": "DiagnosticDescription 2",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 2",
+	"PrescriptionMedicine": "PrescriptionMedicine 2",
+	"PrescriptionDosage": "PrescriptionDosage 2",
+	"PrescriptionDescription": "PrescriptionDescription 2",
+	"Control": "Control 2",
+	"ControlCode": "ControlCode 2",
+	"ControlDescription": "ControlDescription 2",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 2",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 2')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 2')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "3",
+	"PatientID": "8",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 3",
+	"Date": "/Date(989208481000)/",
+	"Time": "PT10H34M24S",
+	"LabCode": "LabCode 3",
+	"LabAttachment": "LabAttachment 3",
+	"ExaminationAnalysis": "ExaminationAnalysis 3",
+	"ExaminationAttachments": "ExaminationAttachments 3",
+	"Diagnostic": "Diagnostic 3",
+	"DiagnosticCode": "DiagnosticCode 3",
+	"DiagnosticDescription": "DiagnosticDescription 3",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 3",
+	"PrescriptionMedicine": "PrescriptionMedicine 3",
+	"PrescriptionDosage": "PrescriptionDosage 3",
+	"PrescriptionDescription": "PrescriptionDescription 3",
+	"Control": "Control 3",
+	"ControlCode": "ControlCode 3",
+	"ControlDescription": "ControlDescription 3",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 3",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 3')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 3')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "4",
+	"PatientID": "7",
+	"Location": "General Hospital",
+	"Physician": "Physician 4",
+	"Date": "/Date(1272773281000)/",
+	"Time": "PT2H38M20S",
+	"LabCode": "LabCode 4",
+	"LabAttachment": "LabAttachment 4",
+	"ExaminationAnalysis": "ExaminationAnalysis 4",
+	"ExaminationAttachments": "ExaminationAttachments 4",
+	"Diagnostic": "Diagnostic 4",
+	"DiagnosticCode": "DiagnosticCode 4",
+	"DiagnosticDescription": "DiagnosticDescription 4",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 4",
+	"PrescriptionMedicine": "PrescriptionMedicine 4",
+	"PrescriptionDosage": "PrescriptionDosage 4",
+	"PrescriptionDescription": "PrescriptionDescription 4",
+	"Control": "Control 4",
+	"ControlCode": "ControlCode 4",
+	"ControlDescription": "ControlDescription 4",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 4",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 4')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 4')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "5",
+	"PatientID": "6",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 5",
+	"Date": "/Date(1152158881000)/",
+	"Time": "PT8H16M6S",
+	"LabCode": "LabCode 5",
+	"LabAttachment": "LabAttachment 5",
+	"ExaminationAnalysis": "ExaminationAnalysis 5",
+	"ExaminationAttachments": "ExaminationAttachments 5",
+	"Diagnostic": "Diagnostic 5",
+	"DiagnosticCode": "DiagnosticCode 5",
+	"DiagnosticDescription": "DiagnosticDescription 5",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 5",
+	"PrescriptionMedicine": "PrescriptionMedicine 5",
+	"PrescriptionDosage": "PrescriptionDosage 5",
+	"PrescriptionDescription": "PrescriptionDescription 5",
+	"Control": "Control 5",
+	"ControlCode": "ControlCode 5",
+	"ControlDescription": "ControlDescription 5",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 5",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 5')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 5')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "6",
+	"PatientID": "5",
+	"Location": "General Hospital",
+	"Physician": "Physician 6",
+	"Date": "/Date(1204430881000)/",
+	"Time": "PT7H37M39S",
+	"LabCode": "LabCode 6",
+	"LabAttachment": "LabAttachment 6",
+	"ExaminationAnalysis": "ExaminationAnalysis 6",
+	"ExaminationAttachments": "ExaminationAttachments 6",
+	"Diagnostic": "Diagnostic 6",
+	"DiagnosticCode": "DiagnosticCode 6",
+	"DiagnosticDescription": "DiagnosticDescription 6",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 6",
+	"PrescriptionMedicine": "PrescriptionMedicine 6",
+	"PrescriptionDosage": "PrescriptionDosage 6",
+	"PrescriptionDescription": "PrescriptionDescription 6",
+	"Control": "Control 6",
+	"ControlCode": "ControlCode 6",
+	"ControlDescription": "ControlDescription 6",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 6",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 6')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 6')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "7",
+	"PatientID": "4",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 7",
+	"Date": "/Date(1031544481000)/",
+	"Time": "PT21H14M5S",
+	"LabCode": "LabCode 7",
+	"LabAttachment": "LabAttachment 7",
+	"ExaminationAnalysis": "ExaminationAnalysis 7",
+	"ExaminationAttachments": "ExaminationAttachments 7",
+	"Diagnostic": "Diagnostic 7",
+	"DiagnosticCode": "DiagnosticCode 7",
+	"DiagnosticDescription": "DiagnosticDescription 7",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 7",
+	"PrescriptionMedicine": "PrescriptionMedicine 7",
+	"PrescriptionDosage": "PrescriptionDosage 7",
+	"PrescriptionDescription": "PrescriptionDescription 7",
+	"Control": "Control 7",
+	"ControlCode": "ControlCode 7",
+	"ControlDescription": "ControlDescription 7",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 7",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 7')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 7')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "8",
+	"PatientID": "3",
+	"Location": "General Hospital",
+	"Physician": "Physician 8",
+	"Date": "/Date(1139890081000)/",
+	"Time": "PT12H18M11S",
+	"LabCode": "LabCode 8",
+	"LabAttachment": "LabAttachment 8",
+	"ExaminationAnalysis": "ExaminationAnalysis 8",
+	"ExaminationAttachments": "ExaminationAttachments 8",
+	"Diagnostic": "Diagnostic 8",
+	"DiagnosticCode": "DiagnosticCode 8",
+	"DiagnosticDescription": "DiagnosticDescription 8",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 8",
+	"PrescriptionMedicine": "PrescriptionMedicine 8",
+	"PrescriptionDosage": "PrescriptionDosage 8",
+	"PrescriptionDescription": "PrescriptionDescription 8",
+	"Control": "Control 8",
+	"ControlCode": "ControlCode 8",
+	"ControlDescription": "ControlDescription 8",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 8",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 8')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 8')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "9",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 9",
+	"Date": "/Date(1026878881000)/",
+	"Time": "PT10H27M32S",
+	"LabCode": "LabCode 9",
+	"LabAttachment": "LabAttachment 9",
+	"ExaminationAnalysis": "ExaminationAnalysis 9",
+	"ExaminationAttachments": "ExaminationAttachments 9",
+	"Diagnostic": "Diagnostic 9",
+	"DiagnosticCode": "DiagnosticCode 9",
+	"DiagnosticDescription": "DiagnosticDescription 9",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 9",
+	"PrescriptionMedicine": "PrescriptionMedicine 9",
+	"PrescriptionDosage": "PrescriptionDosage 9",
+	"PrescriptionDescription": "PrescriptionDescription 9",
+	"Control": "Control 9",
+	"ControlCode": "ControlCode 9",
+	"ControlDescription": "ControlDescription 9",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 9",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 9')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 9')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "10",
+	"PatientID": "1",
+	"Location": "General Hospital",
+	"Physician": "Physician 10",
+	"Date": "/Date(948946081000)/",
+	"Time": "PT10H32M45S",
+	"LabCode": "LabCode 10",
+	"LabAttachment": "LabAttachment 10",
+	"ExaminationAnalysis": "ExaminationAnalysis 10",
+	"ExaminationAttachments": "ExaminationAttachments 10",
+	"Diagnostic": "Diagnostic 10",
+	"DiagnosticCode": "DiagnosticCode 10",
+	"DiagnosticDescription": "DiagnosticDescription 10",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 10",
+	"PrescriptionMedicine": "PrescriptionMedicine 10",
+	"PrescriptionDosage": "PrescriptionDosage 10",
+	"PrescriptionDescription": "PrescriptionDescription 10",
+	"Control": "Control 10",
+	"ControlCode": "ControlCode 10",
+	"ControlDescription": "ControlDescription 10",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 10",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 10')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 10')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "11",
+	"PatientID": "1",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 1",
+	"Date": "/Date(1461544674000)/",
+	"Time": "PT10H58M27S",
+	"LabCode": "LabCode 1",
+	"LabAttachment": "LabAttachment 1",
+	"ExaminationAnalysis": "ExaminationAnalysis 1",
+	"ExaminationAttachments": "ExaminationAttachments 1",
+	"Diagnostic": "Diagnostic 1",
+	"DiagnosticCode": "DiagnosticCode 1",
+	"DiagnosticDescription": "DiagnosticDescription 1",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 1",
+	"PrescriptionMedicine": "PrescriptionMedicine 1",
+	"PrescriptionDosage": "PrescriptionDosage 1",
+	"PrescriptionDescription": "PrescriptionDescription 1",
+	"Control": "Control 1",
+	"ControlCode": "ControlCode 1",
+	"ControlDescription": "ControlDescription 1",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 1",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 1')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 1')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "12",
+	"PatientID": "10",
+	"Location": "General Hospital",
+	"Physician": "Physician 2",
+	"Date": "/Date(1046219874000)/",
+	"Time": "PT20H19M52S",
+	"LabCode": "LabCode 2",
+	"LabAttachment": "LabAttachment 2",
+	"ExaminationAnalysis": "ExaminationAnalysis 2",
+	"ExaminationAttachments": "ExaminationAttachments 2",
+	"Diagnostic": "Diagnostic 2",
+	"DiagnosticCode": "DiagnosticCode 2",
+	"DiagnosticDescription": "DiagnosticDescription 2",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 2",
+	"PrescriptionMedicine": "PrescriptionMedicine 2",
+	"PrescriptionDosage": "PrescriptionDosage 2",
+	"PrescriptionDescription": "PrescriptionDescription 2",
+	"Control": "Control 2",
+	"ControlCode": "ControlCode 2",
+	"ControlDescription": "ControlDescription 2",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 2",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 2')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 2')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "13",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 3",
+	"Date": "/Date(1322008674000)/",
+	"Time": "PT12H30M21S",
+	"LabCode": "LabCode 3",
+	"LabAttachment": "LabAttachment 3",
+	"ExaminationAnalysis": "ExaminationAnalysis 3",
+	"ExaminationAttachments": "ExaminationAttachments 3",
+	"Diagnostic": "Diagnostic 3",
+	"DiagnosticCode": "DiagnosticCode 3",
+	"DiagnosticDescription": "DiagnosticDescription 3",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 3",
+	"PrescriptionMedicine": "PrescriptionMedicine 3",
+	"PrescriptionDosage": "PrescriptionDosage 3",
+	"PrescriptionDescription": "PrescriptionDescription 3",
+	"Control": "Control 3",
+	"ControlCode": "ControlCode 3",
+	"ControlDescription": "ControlDescription 3",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 3",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 3')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 3')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "14",
+	"PatientID": "4",
+	"Location": "General Hospital",
+	"Physician": "Physician 4",
+	"Date": "/Date(1099096674000)/",
+	"Time": "PT5H40M58S",
+	"LabCode": "LabCode 4",
+	"LabAttachment": "LabAttachment 4",
+	"ExaminationAnalysis": "ExaminationAnalysis 4",
+	"ExaminationAttachments": "ExaminationAttachments 4",
+	"Diagnostic": "Diagnostic 4",
+	"DiagnosticCode": "DiagnosticCode 4",
+	"DiagnosticDescription": "DiagnosticDescription 4",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 4",
+	"PrescriptionMedicine": "PrescriptionMedicine 4",
+	"PrescriptionDosage": "PrescriptionDosage 4",
+	"PrescriptionDescription": "PrescriptionDescription 4",
+	"Control": "Control 4",
+	"ControlCode": "ControlCode 4",
+	"ControlDescription": "ControlDescription 4",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 4",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 4')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 4')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "15",
+	"PatientID": "6",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 5",
+	"Date": "/Date(993170274000)/",
+	"Time": "PT16H16M17S",
+	"LabCode": "LabCode 5",
+	"LabAttachment": "LabAttachment 5",
+	"ExaminationAnalysis": "ExaminationAnalysis 5",
+	"ExaminationAttachments": "ExaminationAttachments 5",
+	"Diagnostic": "Diagnostic 5",
+	"DiagnosticCode": "DiagnosticCode 5",
+	"DiagnosticDescription": "DiagnosticDescription 5",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 5",
+	"PrescriptionMedicine": "PrescriptionMedicine 5",
+	"PrescriptionDosage": "PrescriptionDosage 5",
+	"PrescriptionDescription": "PrescriptionDescription 5",
+	"Control": "Control 5",
+	"ControlCode": "ControlCode 5",
+	"ControlDescription": "ControlDescription 5",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 5",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 5')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 5')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "16",
+	"PatientID": "3",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 6",
+	"Date": "/Date(1431909474000)/",
+	"Time": "PT12H4M44S",
+	"LabCode": "LabCode 6",
+	"LabAttachment": "LabAttachment 6",
+	"ExaminationAnalysis": "ExaminationAnalysis 6",
+	"ExaminationAttachments": "ExaminationAttachments 6",
+	"Diagnostic": "Diagnostic 6",
+	"DiagnosticCode": "DiagnosticCode 6",
+	"DiagnosticDescription": "DiagnosticDescription 6",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 6",
+	"PrescriptionMedicine": "PrescriptionMedicine 6",
+	"PrescriptionDosage": "PrescriptionDosage 6",
+	"PrescriptionDescription": "PrescriptionDescription 6",
+	"Control": "Control 6",
+	"ControlCode": "ControlCode 6",
+	"ControlDescription": "ControlDescription 6",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 6",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 6')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 6')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "17",
+	"PatientID": "7",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 7",
+	"Date": "/Date(1214008674000)/",
+	"Time": "PT6H7M41S",
+	"LabCode": "LabCode 7",
+	"LabAttachment": "LabAttachment 7",
+	"ExaminationAnalysis": "ExaminationAnalysis 7",
+	"ExaminationAttachments": "ExaminationAttachments 7",
+	"Diagnostic": "Diagnostic 7",
+	"DiagnosticCode": "DiagnosticCode 7",
+	"DiagnosticDescription": "DiagnosticDescription 7",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 7",
+	"PrescriptionMedicine": "PrescriptionMedicine 7",
+	"PrescriptionDosage": "PrescriptionDosage 7",
+	"PrescriptionDescription": "PrescriptionDescription 7",
+	"Control": "Control 7",
+	"ControlCode": "ControlCode 7",
+	"ControlDescription": "ControlDescription 7",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 7",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 7')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 7')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "18",
+	"PatientID": "9",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 8",
+	"Date": "/Date(1434415074000)/",
+	"Time": "PT14H48M1S",
+	"LabCode": "LabCode 8",
+	"LabAttachment": "LabAttachment 8",
+	"ExaminationAnalysis": "ExaminationAnalysis 8",
+	"ExaminationAttachments": "ExaminationAttachments 8",
+	"Diagnostic": "Diagnostic 8",
+	"DiagnosticCode": "DiagnosticCode 8",
+	"DiagnosticDescription": "DiagnosticDescription 8",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 8",
+	"PrescriptionMedicine": "PrescriptionMedicine 8",
+	"PrescriptionDosage": "PrescriptionDosage 8",
+	"PrescriptionDescription": "PrescriptionDescription 8",
+	"Control": "Control 8",
+	"ControlCode": "ControlCode 8",
+	"ControlDescription": "ControlDescription 8",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 8",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 8')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 8')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "19",
+	"PatientID": "1",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 9",
+	"Date": "/Date(1100392674000)/",
+	"Time": "PT4H45M14S",
+	"LabCode": "LabCode 9",
+	"LabAttachment": "LabAttachment 9",
+	"ExaminationAnalysis": "ExaminationAnalysis 9",
+	"ExaminationAttachments": "ExaminationAttachments 9",
+	"Diagnostic": "Diagnostic 9",
+	"DiagnosticCode": "DiagnosticCode 9",
+	"DiagnosticDescription": "DiagnosticDescription 9",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 9",
+	"PrescriptionMedicine": "PrescriptionMedicine 9",
+	"PrescriptionDosage": "PrescriptionDosage 9",
+	"PrescriptionDescription": "PrescriptionDescription 9",
+	"Control": "Control 9",
+	"ControlCode": "ControlCode 9",
+	"ControlDescription": "ControlDescription 9",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 9",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 9')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 9')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "20",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 10",
+	"Date": "/Date(974248674000)/",
+	"Time": "PT5H54M17S",
+	"LabCode": "LabCode 10",
+	"LabAttachment": "LabAttachment 10",
+	"ExaminationAnalysis": "ExaminationAnalysis 10",
+	"ExaminationAttachments": "ExaminationAttachments 10",
+	"Diagnostic": "Diagnostic 10",
+	"DiagnosticCode": "DiagnosticCode 10",
+	"DiagnosticDescription": "DiagnosticDescription 10",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 10",
+	"PrescriptionMedicine": "PrescriptionMedicine 10",
+	"PrescriptionDosage": "PrescriptionDosage 10",
+	"PrescriptionDescription": "PrescriptionDescription 10",
+	"Control": "Control 10",
+	"ControlCode": "ControlCode 10",
+	"ControlDescription": "ControlDescription 10",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 10",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 10')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 10')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "21",
+	"PatientID": "4",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 11",
+	"Date": "/Date(1192495079000)/",
+	"Time": "PT0H6M0S",
+	"LabCode": "LabCode 11",
+	"LabAttachment": "LabAttachment 11",
+	"ExaminationAnalysis": "ExaminationAnalysis 11",
+	"ExaminationAttachments": "ExaminationAttachments 11",
+	"Diagnostic": "Diagnostic 11",
+	"DiagnosticCode": "DiagnosticCode 11",
+	"DiagnosticDescription": "DiagnosticDescription 11",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 11",
+	"PrescriptionMedicine": "PrescriptionMedicine 11",
+	"PrescriptionDosage": "PrescriptionDosage 11",
+	"PrescriptionDescription": "PrescriptionDescription 11",
+	"Control": "Control 11",
+	"ControlCode": "ControlCode 11",
+	"ControlDescription": "ControlDescription 11",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 11",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 11')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 11')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "22",
+	"PatientID": "7",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 12",
+	"Date": "/Date(1541291879000)/",
+	"Time": "PT9H47M27S",
+	"LabCode": "LabCode 12",
+	"LabAttachment": "LabAttachment 12",
+	"ExaminationAnalysis": "ExaminationAnalysis 12",
+	"ExaminationAttachments": "ExaminationAttachments 12",
+	"Diagnostic": "Diagnostic 12",
+	"DiagnosticCode": "DiagnosticCode 12",
+	"DiagnosticDescription": "DiagnosticDescription 12",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 12",
+	"PrescriptionMedicine": "PrescriptionMedicine 12",
+	"PrescriptionDosage": "PrescriptionDosage 12",
+	"PrescriptionDescription": "PrescriptionDescription 12",
+	"Control": "Control 12",
+	"ControlCode": "ControlCode 12",
+	"ControlDescription": "ControlDescription 12",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 12",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 12')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 12')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "23",
+	"PatientID": "1",
+	"Location": "General Hospital",
+	"Physician": "Physician 13",
+	"Date": "/Date(1514075879000)/",
+	"Time": "PT9H21M0S",
+	"LabCode": "LabCode 13",
+	"LabAttachment": "LabAttachment 13",
+	"ExaminationAnalysis": "ExaminationAnalysis 13",
+	"ExaminationAttachments": "ExaminationAttachments 13",
+	"Diagnostic": "Diagnostic 13",
+	"DiagnosticCode": "DiagnosticCode 13",
+	"DiagnosticDescription": "DiagnosticDescription 13",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 13",
+	"PrescriptionMedicine": "PrescriptionMedicine 13",
+	"PrescriptionDosage": "PrescriptionDosage 13",
+	"PrescriptionDescription": "PrescriptionDescription 13",
+	"Control": "Control 13",
+	"ControlCode": "ControlCode 13",
+	"ControlDescription": "ControlDescription 13",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 13",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 13')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 13')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "24",
+	"PatientID": "2",
+	"Location": "General Hospital",
+	"Physician": "Physician 14",
+	"Date": "/Date(1191285479000)/",
+	"Time": "PT5H4M54S",
+	"LabCode": "LabCode 14",
+	"LabAttachment": "LabAttachment 14",
+	"ExaminationAnalysis": "ExaminationAnalysis 14",
+	"ExaminationAttachments": "ExaminationAttachments 14",
+	"Diagnostic": "Diagnostic 14",
+	"DiagnosticCode": "DiagnosticCode 14",
+	"DiagnosticDescription": "DiagnosticDescription 14",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 14",
+	"PrescriptionMedicine": "PrescriptionMedicine 14",
+	"PrescriptionDosage": "PrescriptionDosage 14",
+	"PrescriptionDescription": "PrescriptionDescription 14",
+	"Control": "Control 14",
+	"ControlCode": "ControlCode 14",
+	"ControlDescription": "ControlDescription 14",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 14",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 14')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 14')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "25",
+	"PatientID": "10",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 15",
+	"Date": "/Date(1297816679000)/",
+	"Time": "PT20H26M34S",
+	"LabCode": "LabCode 15",
+	"LabAttachment": "LabAttachment 15",
+	"ExaminationAnalysis": "ExaminationAnalysis 15",
+	"ExaminationAttachments": "ExaminationAttachments 15",
+	"Diagnostic": "Diagnostic 15",
+	"DiagnosticCode": "DiagnosticCode 15",
+	"DiagnosticDescription": "DiagnosticDescription 15",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 15",
+	"PrescriptionMedicine": "PrescriptionMedicine 15",
+	"PrescriptionDosage": "PrescriptionDosage 15",
+	"PrescriptionDescription": "PrescriptionDescription 15",
+	"Control": "Control 15",
+	"ControlCode": "ControlCode 15",
+	"ControlDescription": "ControlDescription 15",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 15",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 15')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 15')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "26",
+	"PatientID": "9",
+	"Location": "General Hospital",
+	"Physician": "Physician 16",
+	"Date": "/Date(1126658279000)/",
+	"Time": "PT3H21M19S",
+	"LabCode": "LabCode 16",
+	"LabAttachment": "LabAttachment 16",
+	"ExaminationAnalysis": "ExaminationAnalysis 16",
+	"ExaminationAttachments": "ExaminationAttachments 16",
+	"Diagnostic": "Diagnostic 16",
+	"DiagnosticCode": "DiagnosticCode 16",
+	"DiagnosticDescription": "DiagnosticDescription 16",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 16",
+	"PrescriptionMedicine": "PrescriptionMedicine 16",
+	"PrescriptionDosage": "PrescriptionDosage 16",
+	"PrescriptionDescription": "PrescriptionDescription 16",
+	"Control": "Control 16",
+	"ControlCode": "ControlCode 16",
+	"ControlDescription": "ControlDescription 16",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 16",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 16')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 16')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "27",
+	"PatientID": "3",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 17",
+	"Date": "/Date(1445906279000)/",
+	"Time": "PT16H2M57S",
+	"LabCode": "LabCode 17",
+	"LabAttachment": "LabAttachment 17",
+	"ExaminationAnalysis": "ExaminationAnalysis 17",
+	"ExaminationAttachments": "ExaminationAttachments 17",
+	"Diagnostic": "Diagnostic 17",
+	"DiagnosticCode": "DiagnosticCode 17",
+	"DiagnosticDescription": "DiagnosticDescription 17",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 17",
+	"PrescriptionMedicine": "PrescriptionMedicine 17",
+	"PrescriptionDosage": "PrescriptionDosage 17",
+	"PrescriptionDescription": "PrescriptionDescription 17",
+	"Control": "Control 17",
+	"ControlCode": "ControlCode 17",
+	"ControlDescription": "ControlDescription 17",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 17",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 17')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 17')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "28",
+	"PatientID": "4",
+	"Location": "General Hospital",
+	"Physician": "Physician 18",
+	"Date": "/Date(1092703079000)/",
+	"Time": "PT11H34M30S",
+	"LabCode": "LabCode 18",
+	"LabAttachment": "LabAttachment 18",
+	"ExaminationAnalysis": "ExaminationAnalysis 18",
+	"ExaminationAttachments": "ExaminationAttachments 18",
+	"Diagnostic": "Diagnostic 18",
+	"DiagnosticCode": "DiagnosticCode 18",
+	"DiagnosticDescription": "DiagnosticDescription 18",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 18",
+	"PrescriptionMedicine": "PrescriptionMedicine 18",
+	"PrescriptionDosage": "PrescriptionDosage 18",
+	"PrescriptionDescription": "PrescriptionDescription 18",
+	"Control": "Control 18",
+	"ControlCode": "ControlCode 18",
+	"ControlDescription": "ControlDescription 18",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 18",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 18')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 18')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "29",
+	"PatientID": "7",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 19",
+	"Date": "/Date(1508719079000)/",
+	"Time": "PT19H29M7S",
+	"LabCode": "LabCode 19",
+	"LabAttachment": "LabAttachment 19",
+	"ExaminationAnalysis": "ExaminationAnalysis 19",
+	"ExaminationAttachments": "ExaminationAttachments 19",
+	"Diagnostic": "Diagnostic 19",
+	"DiagnosticCode": "DiagnosticCode 19",
+	"DiagnosticDescription": "DiagnosticDescription 19",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 19",
+	"PrescriptionMedicine": "PrescriptionMedicine 19",
+	"PrescriptionDosage": "PrescriptionDosage 19",
+	"PrescriptionDescription": "PrescriptionDescription 19",
+	"Control": "Control 19",
+	"ControlCode": "ControlCode 19",
+	"ControlDescription": "ControlDescription 19",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 19",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 19')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 19')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "30",
+	"PatientID": "5",
+	"Location": "General Hospital",
+	"Physician": "Physician 20",
+	"Date": "/Date(1093999079000)/",
+	"Time": "PT14H53M21S",
+	"LabCode": "LabCode 20",
+	"LabAttachment": "LabAttachment 20",
+	"ExaminationAnalysis": "ExaminationAnalysis 20",
+	"ExaminationAttachments": "ExaminationAttachments 20",
+	"Diagnostic": "Diagnostic 20",
+	"DiagnosticCode": "DiagnosticCode 20",
+	"DiagnosticDescription": "DiagnosticDescription 20",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 20",
+	"PrescriptionMedicine": "PrescriptionMedicine 20",
+	"PrescriptionDosage": "PrescriptionDosage 20",
+	"PrescriptionDescription": "PrescriptionDescription 20",
+	"Control": "Control 20",
+	"ControlCode": "ControlCode 20",
+	"ControlDescription": "ControlDescription 20",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 20",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 20')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 20')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "31",
+	"PatientID": "4",
+	"Location": "General Hospital",
+	"Physician": "Physician 21",
+	"Date": "/Date(957919081000)/",
+	"Time": "PT5H44M7S",
+	"LabCode": "LabCode 21",
+	"LabAttachment": "LabAttachment 21",
+	"ExaminationAnalysis": "ExaminationAnalysis 21",
+	"ExaminationAttachments": "ExaminationAttachments 21",
+	"Diagnostic": "Diagnostic 21",
+	"DiagnosticCode": "DiagnosticCode 21",
+	"DiagnosticDescription": "DiagnosticDescription 21",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 21",
+	"PrescriptionMedicine": "PrescriptionMedicine 21",
+	"PrescriptionDosage": "PrescriptionDosage 21",
+	"PrescriptionDescription": "PrescriptionDescription 21",
+	"Control": "Control 21",
+	"ControlCode": "ControlCode 21",
+	"ControlDescription": "ControlDescription 21",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 21",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 21')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 21')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "32",
+	"PatientID": "6",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 22",
+	"Date": "/Date(1124757481000)/",
+	"Time": "PT7H6M8S",
+	"LabCode": "LabCode 22",
+	"LabAttachment": "LabAttachment 22",
+	"ExaminationAnalysis": "ExaminationAnalysis 22",
+	"ExaminationAttachments": "ExaminationAttachments 22",
+	"Diagnostic": "Diagnostic 22",
+	"DiagnosticCode": "DiagnosticCode 22",
+	"DiagnosticDescription": "DiagnosticDescription 22",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 22",
+	"PrescriptionMedicine": "PrescriptionMedicine 22",
+	"PrescriptionDosage": "PrescriptionDosage 22",
+	"PrescriptionDescription": "PrescriptionDescription 22",
+	"Control": "Control 22",
+	"ControlCode": "ControlCode 22",
+	"ControlDescription": "ControlDescription 22",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 22",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 22')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 22')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "33",
+	"PatientID": "4",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 23",
+	"Date": "/Date(1462495081000)/",
+	"Time": "PT13H18M39S",
+	"LabCode": "LabCode 23",
+	"LabAttachment": "LabAttachment 23",
+	"ExaminationAnalysis": "ExaminationAnalysis 23",
+	"ExaminationAttachments": "ExaminationAttachments 23",
+	"Diagnostic": "Diagnostic 23",
+	"DiagnosticCode": "DiagnosticCode 23",
+	"DiagnosticDescription": "DiagnosticDescription 23",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 23",
+	"PrescriptionMedicine": "PrescriptionMedicine 23",
+	"PrescriptionDosage": "PrescriptionDosage 23",
+	"PrescriptionDescription": "PrescriptionDescription 23",
+	"Control": "Control 23",
+	"ControlCode": "ControlCode 23",
+	"ControlDescription": "ControlDescription 23",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 23",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 23')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 23')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "34",
+	"PatientID": "9",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 24",
+	"Date": "/Date(978482281000)/",
+	"Time": "PT11H40M47S",
+	"LabCode": "LabCode 24",
+	"LabAttachment": "LabAttachment 24",
+	"ExaminationAnalysis": "ExaminationAnalysis 24",
+	"ExaminationAttachments": "ExaminationAttachments 24",
+	"Diagnostic": "Diagnostic 24",
+	"DiagnosticCode": "DiagnosticCode 24",
+	"DiagnosticDescription": "DiagnosticDescription 24",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 24",
+	"PrescriptionMedicine": "PrescriptionMedicine 24",
+	"PrescriptionDosage": "PrescriptionDosage 24",
+	"PrescriptionDescription": "PrescriptionDescription 24",
+	"Control": "Control 24",
+	"ControlCode": "ControlCode 24",
+	"ControlDescription": "ControlDescription 24",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 24",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 24')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 24')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "35",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 25",
+	"Date": "/Date(1490229481000)/",
+	"Time": "PT1H12M9S",
+	"LabCode": "LabCode 25",
+	"LabAttachment": "LabAttachment 25",
+	"ExaminationAnalysis": "ExaminationAnalysis 25",
+	"ExaminationAttachments": "ExaminationAttachments 25",
+	"Diagnostic": "Diagnostic 25",
+	"DiagnosticCode": "DiagnosticCode 25",
+	"DiagnosticDescription": "DiagnosticDescription 25",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 25",
+	"PrescriptionMedicine": "PrescriptionMedicine 25",
+	"PrescriptionDosage": "PrescriptionDosage 25",
+	"PrescriptionDescription": "PrescriptionDescription 25",
+	"Control": "Control 25",
+	"ControlCode": "ControlCode 25",
+	"ControlDescription": "ControlDescription 25",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 25",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 25')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 25')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "36",
+	"PatientID": "1",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 26",
+	"Date": "/Date(1059266281000)/",
+	"Time": "PT12H2M34S",
+	"LabCode": "LabCode 26",
+	"LabAttachment": "LabAttachment 26",
+	"ExaminationAnalysis": "ExaminationAnalysis 26",
+	"ExaminationAttachments": "ExaminationAttachments 26",
+	"Diagnostic": "Diagnostic 26",
+	"DiagnosticCode": "DiagnosticCode 26",
+	"DiagnosticDescription": "DiagnosticDescription 26",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 26",
+	"PrescriptionMedicine": "PrescriptionMedicine 26",
+	"PrescriptionDosage": "PrescriptionDosage 26",
+	"PrescriptionDescription": "PrescriptionDescription 26",
+	"Control": "Control 26",
+	"ControlCode": "ControlCode 26",
+	"ControlDescription": "ControlDescription 26",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 26",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 26')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 26')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "37",
+	"PatientID": "9",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 27",
+	"Date": "/Date(1021509481000)/",
+	"Time": "PT20H3M18S",
+	"LabCode": "LabCode 27",
+	"LabAttachment": "LabAttachment 27",
+	"ExaminationAnalysis": "ExaminationAnalysis 27",
+	"ExaminationAttachments": "ExaminationAttachments 27",
+	"Diagnostic": "Diagnostic 27",
+	"DiagnosticCode": "DiagnosticCode 27",
+	"DiagnosticDescription": "DiagnosticDescription 27",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 27",
+	"PrescriptionMedicine": "PrescriptionMedicine 27",
+	"PrescriptionDosage": "PrescriptionDosage 27",
+	"PrescriptionDescription": "PrescriptionDescription 27",
+	"Control": "Control 27",
+	"ControlCode": "ControlCode 27",
+	"ControlDescription": "ControlDescription 27",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 27",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 27')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 27')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "38",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 28",
+	"Date": "/Date(1066264681000)/",
+	"Time": "PT17H29M24S",
+	"LabCode": "LabCode 28",
+	"LabAttachment": "LabAttachment 28",
+	"ExaminationAnalysis": "ExaminationAnalysis 28",
+	"ExaminationAttachments": "ExaminationAttachments 28",
+	"Diagnostic": "Diagnostic 28",
+	"DiagnosticCode": "DiagnosticCode 28",
+	"DiagnosticDescription": "DiagnosticDescription 28",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 28",
+	"PrescriptionMedicine": "PrescriptionMedicine 28",
+	"PrescriptionDosage": "PrescriptionDosage 28",
+	"PrescriptionDescription": "PrescriptionDescription 28",
+	"Control": "Control 28",
+	"ControlCode": "ControlCode 28",
+	"ControlDescription": "ControlDescription 28",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 28",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 28')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 28')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "39",
+	"PatientID": "3",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 29",
+	"Date": "/Date(1047083881000)/",
+	"Time": "PT13H52M19S",
+	"LabCode": "LabCode 29",
+	"LabAttachment": "LabAttachment 29",
+	"ExaminationAnalysis": "ExaminationAnalysis 29",
+	"ExaminationAttachments": "ExaminationAttachments 29",
+	"Diagnostic": "Diagnostic 29",
+	"DiagnosticCode": "DiagnosticCode 29",
+	"DiagnosticDescription": "DiagnosticDescription 29",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 29",
+	"PrescriptionMedicine": "PrescriptionMedicine 29",
+	"PrescriptionDosage": "PrescriptionDosage 29",
+	"PrescriptionDescription": "PrescriptionDescription 29",
+	"Control": "Control 29",
+	"ControlCode": "ControlCode 29",
+	"ControlDescription": "ControlDescription 29",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 29",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 29')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 29')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "40",
+	"PatientID": "4",
+	"Location": "General Hospital",
+	"Physician": "Physician 30",
+	"Date": "/Date(1257122281000)/",
+	"Time": "PT4H23M12S",
+	"LabCode": "LabCode 30",
+	"LabAttachment": "LabAttachment 30",
+	"ExaminationAnalysis": "ExaminationAnalysis 30",
+	"ExaminationAttachments": "ExaminationAttachments 30",
+	"Diagnostic": "Diagnostic 30",
+	"DiagnosticCode": "DiagnosticCode 30",
+	"DiagnosticDescription": "DiagnosticDescription 30",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 30",
+	"PrescriptionMedicine": "PrescriptionMedicine 30",
+	"PrescriptionDosage": "PrescriptionDosage 30",
+	"PrescriptionDescription": "PrescriptionDescription 30",
+	"Control": "Control 30",
+	"ControlCode": "ControlCode 30",
+	"ControlDescription": "ControlDescription 30",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 30",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 30')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 30')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "41",
+	"PatientID": "5",
+	"Location": "General Hospital",
+	"Physician": "Physician 41",
+	"Date": "/Date(1276389486000)/",
+	"Time": "PT13H30M20S",
+	"LabCode": "LabCode 41",
+	"LabAttachment": "LabAttachment 41",
+	"ExaminationAnalysis": "ExaminationAnalysis 41",
+	"ExaminationAttachments": "ExaminationAttachments 41",
+	"Diagnostic": "Diagnostic 41",
+	"DiagnosticCode": "DiagnosticCode 41",
+	"DiagnosticDescription": "DiagnosticDescription 41",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 41",
+	"PrescriptionMedicine": "PrescriptionMedicine 41",
+	"PrescriptionDosage": "PrescriptionDosage 41",
+	"PrescriptionDescription": "PrescriptionDescription 41",
+	"Control": "Control 41",
+	"ControlCode": "ControlCode 41",
+	"ControlDescription": "ControlDescription 41",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 41",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 41')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 41')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "42",
+	"PatientID": "6",
+	"Location": "General Hospital",
+	"Physician": "Physician 42",
+	"Date": "/Date(1440203886000)/",
+	"Time": "PT8H4M7S",
+	"LabCode": "LabCode 42",
+	"LabAttachment": "LabAttachment 42",
+	"ExaminationAnalysis": "ExaminationAnalysis 42",
+	"ExaminationAttachments": "ExaminationAttachments 42",
+	"Diagnostic": "Diagnostic 42",
+	"DiagnosticCode": "DiagnosticCode 42",
+	"DiagnosticDescription": "DiagnosticDescription 42",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 42",
+	"PrescriptionMedicine": "PrescriptionMedicine 42",
+	"PrescriptionDosage": "PrescriptionDosage 42",
+	"PrescriptionDescription": "PrescriptionDescription 42",
+	"Control": "Control 42",
+	"ControlCode": "ControlCode 42",
+	"ControlDescription": "ControlDescription 42",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 42",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 42')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 42')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "43",
+	"PatientID": "7",
+	"Location": "General Hospital",
+	"Physician": "Physician 43",
+	"Date": "/Date(1210207086000)/",
+	"Time": "PT7H2M58S",
+	"LabCode": "LabCode 43",
+	"LabAttachment": "LabAttachment 43",
+	"ExaminationAnalysis": "ExaminationAnalysis 43",
+	"ExaminationAttachments": "ExaminationAttachments 43",
+	"Diagnostic": "Diagnostic 43",
+	"DiagnosticCode": "DiagnosticCode 43",
+	"DiagnosticDescription": "DiagnosticDescription 43",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 43",
+	"PrescriptionMedicine": "PrescriptionMedicine 43",
+	"PrescriptionDosage": "PrescriptionDosage 43",
+	"PrescriptionDescription": "PrescriptionDescription 43",
+	"Control": "Control 43",
+	"ControlCode": "ControlCode 43",
+	"ControlDescription": "ControlDescription 43",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 43",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 43')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 43')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "44",
+	"PatientID": "10",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 44",
+	"Date": "/Date(1550363886000)/",
+	"Time": "PT13H6M17S",
+	"LabCode": "LabCode 44",
+	"LabAttachment": "LabAttachment 44",
+	"ExaminationAnalysis": "ExaminationAnalysis 44",
+	"ExaminationAttachments": "ExaminationAttachments 44",
+	"Diagnostic": "Diagnostic 44",
+	"DiagnosticCode": "DiagnosticCode 44",
+	"DiagnosticDescription": "DiagnosticDescription 44",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 44",
+	"PrescriptionMedicine": "PrescriptionMedicine 44",
+	"PrescriptionDosage": "PrescriptionDosage 44",
+	"PrescriptionDescription": "PrescriptionDescription 44",
+	"Control": "Control 44",
+	"ControlCode": "ControlCode 44",
+	"ControlDescription": "ControlDescription 44",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 44",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 44')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 44')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "45",
+	"PatientID": "10",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 45",
+	"Date": "/Date(1204418286000)/",
+	"Time": "PT9H30M32S",
+	"LabCode": "LabCode 45",
+	"LabAttachment": "LabAttachment 45",
+	"ExaminationAnalysis": "ExaminationAnalysis 45",
+	"ExaminationAttachments": "ExaminationAttachments 45",
+	"Diagnostic": "Diagnostic 45",
+	"DiagnosticCode": "DiagnosticCode 45",
+	"DiagnosticDescription": "DiagnosticDescription 45",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 45",
+	"PrescriptionMedicine": "PrescriptionMedicine 45",
+	"PrescriptionDosage": "PrescriptionDosage 45",
+	"PrescriptionDescription": "PrescriptionDescription 45",
+	"Control": "Control 45",
+	"ControlCode": "ControlCode 45",
+	"ControlDescription": "ControlDescription 45",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 45",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 45')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 45')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "46",
+	"PatientID": "2",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 46",
+	"Date": "/Date(950575086000)/",
+	"Time": "PT19H56M27S",
+	"LabCode": "LabCode 46",
+	"LabAttachment": "LabAttachment 46",
+	"ExaminationAnalysis": "ExaminationAnalysis 46",
+	"ExaminationAttachments": "ExaminationAttachments 46",
+	"Diagnostic": "Diagnostic 46",
+	"DiagnosticCode": "DiagnosticCode 46",
+	"DiagnosticDescription": "DiagnosticDescription 46",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 46",
+	"PrescriptionMedicine": "PrescriptionMedicine 46",
+	"PrescriptionDosage": "PrescriptionDosage 46",
+	"PrescriptionDescription": "PrescriptionDescription 46",
+	"Control": "Control 46",
+	"ControlCode": "ControlCode 46",
+	"ControlDescription": "ControlDescription 46",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 46",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 46')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 46')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "47",
+	"PatientID": "1",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 47",
+	"Date": "/Date(1562719086000)/",
+	"Time": "PT14H3M40S",
+	"LabCode": "LabCode 47",
+	"LabAttachment": "LabAttachment 47",
+	"ExaminationAnalysis": "ExaminationAnalysis 47",
+	"ExaminationAttachments": "ExaminationAttachments 47",
+	"Diagnostic": "Diagnostic 47",
+	"DiagnosticCode": "DiagnosticCode 47",
+	"DiagnosticDescription": "DiagnosticDescription 47",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 47",
+	"PrescriptionMedicine": "PrescriptionMedicine 47",
+	"PrescriptionDosage": "PrescriptionDosage 47",
+	"PrescriptionDescription": "PrescriptionDescription 47",
+	"Control": "Control 47",
+	"ControlCode": "ControlCode 47",
+	"ControlDescription": "ControlDescription 47",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 47",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 47')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 47')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "48",
+	"PatientID": "6",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 48",
+	"Date": "/Date(1232498286000)/",
+	"Time": "PT16H9M52S",
+	"LabCode": "LabCode 48",
+	"LabAttachment": "LabAttachment 48",
+	"ExaminationAnalysis": "ExaminationAnalysis 48",
+	"ExaminationAttachments": "ExaminationAttachments 48",
+	"Diagnostic": "Diagnostic 48",
+	"DiagnosticCode": "DiagnosticCode 48",
+	"DiagnosticDescription": "DiagnosticDescription 48",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 48",
+	"PrescriptionMedicine": "PrescriptionMedicine 48",
+	"PrescriptionDosage": "PrescriptionDosage 48",
+	"PrescriptionDescription": "PrescriptionDescription 48",
+	"Control": "Control 48",
+	"ControlCode": "ControlCode 48",
+	"ControlDescription": "ControlDescription 48",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 48",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 48')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 48')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "49",
+	"PatientID": "9",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 49",
+	"Date": "/Date(1096677486000)/",
+	"Time": "PT1H7M18S",
+	"LabCode": "LabCode 49",
+	"LabAttachment": "LabAttachment 49",
+	"ExaminationAnalysis": "ExaminationAnalysis 49",
+	"ExaminationAttachments": "ExaminationAttachments 49",
+	"Diagnostic": "Diagnostic 49",
+	"DiagnosticCode": "DiagnosticCode 49",
+	"DiagnosticDescription": "DiagnosticDescription 49",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 49",
+	"PrescriptionMedicine": "PrescriptionMedicine 49",
+	"PrescriptionDosage": "PrescriptionDosage 49",
+	"PrescriptionDescription": "PrescriptionDescription 49",
+	"Control": "Control 49",
+	"ControlCode": "ControlCode 49",
+	"ControlDescription": "ControlDescription 49",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 49",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 49')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 49')/Patient"
+		}
+	}
+}, {
+	"MedicalHistoryID": "50",
+	"PatientID": "8",
+	"Location": "Hope Clinic",
+	"Physician": "Physician 50",
+	"Date": "/Date(1209170286000)/",
+	"Time": "PT2H51M48S",
+	"LabCode": "LabCode 50",
+	"LabAttachment": "LabAttachment 50",
+	"ExaminationAnalysis": "ExaminationAnalysis 50",
+	"ExaminationAttachments": "ExaminationAttachments 50",
+	"Diagnostic": "Diagnostic 50",
+	"DiagnosticCode": "DiagnosticCode 50",
+	"DiagnosticDescription": "DiagnosticDescription 50",
+	"DiagnosticAnalysis": "DiagnosticAnalysis 50",
+	"PrescriptionMedicine": "PrescriptionMedicine 50",
+	"PrescriptionDosage": "PrescriptionDosage 50",
+	"PrescriptionDescription": "PrescriptionDescription 50",
+	"Control": "Control 50",
+	"ControlCode": "ControlCode 50",
+	"ControlDescription": "ControlDescription 50",
+	"PrescriptionAdditionalInformation": "PrescriptionAdditionalInformation 50",
+	"__metadata": {
+		"uri": "MedicalHistories('MedicalHistoryID 50')",
+		"type": "Health.MedicalHistory"
+	},
+	"Patient": {
+		"__deferred": {
+			"uri": "MedicalHistories('MedicalHistoryID 50')/Patient"
+		}
+	}
+}]

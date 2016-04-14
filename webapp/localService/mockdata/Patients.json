@@ -1,0 +1,241 @@
+[{
+	"PatientID": "1",
+	"FirstName": "Jon",
+	"LastName": "Snow",
+	"DateOfBirth": "/Date(1435554000000)/",
+	"Country": "Westeros",
+	"City": "The Wall",
+	"Email": "jsnow@gmail.com",
+	"Address": "Address 1",
+	"Telephone": "Telephone 1",
+	"Gender": "Male",
+	"Insurance": "Insurance 1",
+	"RH": "RH 1",
+	"Allegies": "Allegies 1",
+	"__metadata": {
+		"uri": "Patients('1')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s18.postimg.org/sllat6jw9/jsnow.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('PatientID 1')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "2",
+	"FirstName": "Daenerys",
+	"LastName": "Targaryen",
+	"DateOfBirth": "/Date(1041653275000)/",
+	"Country": "Westeros",
+	"City": "Meereen",
+	"Email": "dtargaryen@gmail.com",
+	"Address": "Address 2",
+	"Telephone": "Telephone 2",
+	"Gender": "Female",
+	"Insurance": "Insurance 2",
+	"RH": "RH 2",
+	"Allegies": "Allegies 2",
+	"__metadata": {
+		"uri": "Patients('2')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s16.postimg.org/6onk36vph/dtargaryen.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('2')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "3",
+	"FirstName": "Tyrion",
+	"LastName": "Lannister",
+	"DateOfBirth": "/Date(1516766875000)/",
+	"Country": "Westeros",
+	"City": "Meereen",
+	"Email": "tlannister@gmail.com",
+	"Address": "Address 3",
+	"Telephone": "Telephone 3",
+	"Gender": "Male",
+	"Insurance": "Insurance 3",
+	"RH": "RH 3",
+	"Allegies": "Allegies 3",
+	"__metadata": {
+		"uri": "Patients('3')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s24.postimg.org/gt14plyol/tlannister.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('3')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "4",
+	"FirstName": "Arya",
+	"LastName": "Stark",
+	"DateOfBirth": "/Date(1546315675000)/",
+	"Country": "Westeros",
+	"City": "Braavos",
+	"Email": "astark@gmail.com",
+	"Address": "Address 4",
+	"Telephone": "Telephone 4",
+	"Gender": "Female",
+	"Insurance": "Insurance 4",
+	"RH": "RH 4",
+	"Allegies": "Allegies 4",
+	"__metadata": {
+		"uri": "Patients('4')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s24.postimg.org/jmc998bmd/astark.png",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('4')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "5",
+	"FirstName": "Cercei",
+	"LastName": "Lannister",
+	"DateOfBirth": "/Date(1384574875000)/",
+	"Country": "Westeros",
+	"City": "Kings Landing",
+	"Email": "clannister@gmail.com",
+	"Address": "Address 5",
+	"Telephone": "Telephone 5",
+	"Gender": "Female",
+	"Insurance": "Insurance 5",
+	"RH": "RH 5",
+	"Allegies": "Allegies 5",
+	"__metadata": {
+		"uri": "Patients('5')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s28.postimg.org/8zmrq5zd9/clannister.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('5')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "6",
+	"FirstName": "Khal",
+	"LastName": "Drogo",
+	"DateOfBirth": "/Date(1566619675000)/",
+	"Country": "Vaes Dothrak",
+	"City": "Dothrak",
+	"Email": "kdrogo@gmail.com",
+	"Address": "Address 6",
+	"Telephone": "Telephone 6",
+	"Gender": "Male",
+	"Insurance": "Insurance 6",
+	"RH": "RH 6",
+	"Allegies": "Allegies 6",
+	"__metadata": {
+		"uri": "Patients('6')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s15.postimg.org/r98xfijmj/kdrogo.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('6')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "7",
+	"FirstName": "Theon",
+	"LastName": "Greyjoy",
+	"DateOfBirth": "/Date(1037851675000)/",
+	"Country": "Westeros",
+	"City": "Winterfell",
+	"Email": "tgreyjoy@gmail.com",
+	"Address": "Address 7",
+	"Telephone": "Telephone 7",
+	"Gender": "Male",
+	"Insurance": "Insurance 7",
+	"RH": "RH 7",
+	"Allegies": "Allegies 7",
+	"__metadata": {
+		"uri": "Patients('7')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s16.postimg.org/eyd7mttl1/tgreyjoy.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('7')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "8",
+	"FirstName": "Catellyn",
+	"LastName": "Tully",
+	"DateOfBirth": "/Date(1528776475000)/",
+	"Country": "Westeros",
+	"City": "Winterfell",
+	"Email": "ctully@gmail.com",
+	"Address": "Address 8",
+	"Telephone": "Telephone 8",
+	"Gender": "Female",
+	"Insurance": "Insurance 8",
+	"RH": "RH 8",
+	"Allegies": "Allegies 8",
+	"__metadata": {
+		"uri": "Patients('8')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s21.postimg.org/68ac8b3xj/ctully.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('8')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "9",
+	"FirstName": "Margaery",
+	"LastName": "Tyrell",
+	"DateOfBirth": "/Date(1015214875000)/",
+	"Country": "Westeros",
+	"City": "Kings Landing",
+	"Email": "mtyrell@gmail.com",
+	"Address": "Address 9",
+	"Telephone": "Telephone 9",
+	"Gender": "Female",
+	"Insurance": "Insurance 9",
+	"RH": "RH 9",
+	"Allegies": "Allegies 9",
+	"__metadata": {
+		"uri": "Patients('9')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s27.postimg.org/b757f25hv/mtyrell.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('9')/MedicalHistory"
+		}
+	}
+}, {
+	"PatientID": "10",
+	"FirstName": "Sansa",
+	"LastName": "Stark",
+	"DateOfBirth": "/Date(1444882075000)/",
+	"Country": "Westeros",
+	"City": "The Vale",
+	"Email": "sstark@gmail.com",
+	"Address": "Address 10",
+	"Telephone": "Telephone 10",
+	"Gender": "Female",
+	"Insurance": "Insurance 10",
+	"RH": "RH 10",
+	"Allegies": "Allegies 10",
+	"__metadata": {
+		"uri": "Patients('10')",
+		"type": "Health.Patient"
+	},
+	"PhotoURL": "http://s18.postimg.org/x18bc6lo9/sstark.jpg",
+		"MedicalHistory": {
+		"__deferred": {
+			"uri": "Patients('10')/MedicalHistory"
+		}
+	}
+}]

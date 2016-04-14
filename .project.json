@@ -1,6 +1,7 @@
 {
   "projectType": [
     "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web",
     "com.watt.common.builder.sapui5clientbuild"
   ],
   "build": {
@@ -19,18 +20,22 @@
       "templateId": "sap.ui.ui5-template-plugin.1worklist",
       "templateVersion": "1.34.5",
       "dateTimeStamp": "Thu, 14 Apr 2016 20:26:46 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 14 Apr 2016 20:51:47 GMT"
     }
   ],
   "mockpreview": {
-    "mockUri": "",
-    "metadataFilePath": "",
-    "loadJSONFiles": false,
+    "mockUri": "/here/goes/your/serviceurl/",
+    "metadataFilePath": "localService/metadata.xml",
+    "loadJSONFiles": true,
     "loadCustomRequests": false,
     "mockRequestsFilePath": ""
   },
   "translation": {
-    "translationDomain": "",
-    "supportedLanguages": "en,fr,de",
+    "supportedLanguages": "de,en,fr",
     "defaultLanguage": "en",
     "defaultI18NPropertyFile": "i18n.properties",
     "resourceModelName": "i18n"
