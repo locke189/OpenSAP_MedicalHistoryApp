@@ -5,12 +5,84 @@
 		  xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="{i18n>worklistTitle}">
+			<Page title="{i18n>worklistTitle}"
+				  class="sapUiResponsiveContentPadding"
+				  showNavButton="true"
+				  navButtonPress="onNavBack"
+				  showFooter="true">
 				<content>
+				<IconTabBar id="wl_itb" 
+							expand="true" 
+							expandable="false"
+							applyContentPadding="false"
+							select="onIconSelected">
+				
+
+						<items>
+							<IconTabFilter key="all" 
+										   text="{i18n>worklist-filterAll}" 
+										   icon="sap-icon://status-completed" 
+										   iconColor="Positive" 
+										   id="wl_itb_filter_all"/>
+							
+							<IconTabFilter key="today" 
+										   text="{i18n>worklist-filterToday}"  
+										   icon="sap-icon://status-in-process" 
+										   iconColor="Critical" 
+										   id="wl_itb_filter_today"/>
+						</items>
 					
+					</IconTabBar>
 					
-					
+					<Table id="table" 
+						   width="auto" 
+						   class="sapUiResponsiveMargin" 
+						   items="{ path: '/Appointments', parameters: { expand: 'Patient' } }" 
+						   noDataText="{i18n>worklist-tableNoDataText}" 
+						   growing="true" 
+						   growingScrollToLoad="true" 
+						   updateFinished="onUpdateFinishedWorklist">
+							
+						<columns>
+							<Column id="wl_col_id">
+								<Text text="{i18n>worklist-id}" id="wl_col_txt_id"/>
+							</Column>
+							<Column id="wl_col_date">
+								<header>
+									<Text text="{i18n>worklist-date}" maxLines="0" id="wl_col_txt_date"/>
+								</header>
+							</Column>
+							<Column id="wl_col_patient">
+								<header>
+									<Text text="{i18n>worklist-patient}" maxLines="0" id="wl_col_txt_patient"/>
+								</header>
+							</Column>
+							<Column id="wl_col_status">
+								<header>
+									<Text text="{i18n>worklist-status}" maxLines="0" id="wl_col_txt_status"/>
+								</header>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Navigation" press="onPressRowWorklist">
+								<cells>
+									<ObjectIdentifier title="{AppointmentID}"/>
+									<ObjectIdentifier title="{path: 'Date', type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'MM/dd/yyyy' } }" 
+													  text="{path: 'Date', type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'HH:MM:SS' } }"/>
+									<ObjectIdentifier title="{Patient/FirstName} {Patient/LastName}" text="ID-{PatientID}"/>
+									<ObjectIdentifier title="{Status}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						
+					</Table>
+
 				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+					</Toolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>
