@@ -17,7 +17,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s18.postimg.org/sllat6jw9/jsnow.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('PatientID 1')/MedicalHistory"
 		}
@@ -41,7 +41,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s16.postimg.org/6onk36vph/dtargaryen.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('2')/MedicalHistory"
 		}
@@ -65,7 +65,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s24.postimg.org/gt14plyol/tlannister.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('3')/MedicalHistory"
 		}
@@ -89,7 +89,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s24.postimg.org/jmc998bmd/astark.png",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('4')/MedicalHistory"
 		}
@@ -113,7 +113,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s28.postimg.org/8zmrq5zd9/clannister.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('5')/MedicalHistory"
 		}
@@ -137,7 +137,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s15.postimg.org/r98xfijmj/kdrogo.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('6')/MedicalHistory"
 		}
@@ -161,7 +161,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s16.postimg.org/eyd7mttl1/tgreyjoy.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('7')/MedicalHistory"
 		}
@@ -185,7 +185,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s21.postimg.org/68ac8b3xj/ctully.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('8')/MedicalHistory"
 		}
@@ -209,7 +209,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s27.postimg.org/b757f25hv/mtyrell.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('9')/MedicalHistory"
 		}
@@ -233,7 +233,7 @@
 		"type": "Health.Patient"
 	},
 	"PhotoURL": "http://s18.postimg.org/x18bc6lo9/sstark.jpg",
-		"MedicalHistory": {
+	"MedicalHistory": {
 		"__deferred": {
 			"uri": "Patients('10')/MedicalHistory"
 		}

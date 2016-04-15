@@ -15,7 +15,7 @@
 							expand="true" 
 							expandable="false"
 							applyContentPadding="false"
-							select="onIconSelected">
+							select="onIconSelectedWorklist">
 				
 
 						<items>
@@ -34,7 +34,7 @@
 					
 					</IconTabBar>
 					
-					<Table id="table" 
+					<Table id="wl_table" 
 						   width="auto" 
 						   class="sapUiResponsiveMargin" 
 						   items="{ path: '/Appointments', parameters: { expand: 'Patient' } }" 
@@ -42,7 +42,17 @@
 						   growing="true" 
 						   growingScrollToLoad="true" 
 						   updateFinished="onUpdateFinishedWorklist">
-							
+						<headerToolbar>
+							<Toolbar>
+								<Title id="wl_tableHeader" text="{i18n>worklistTitle}"/>
+								<ToolbarSpacer/>
+								<SearchField id="wl_searchField" 
+											 text="{i18n>worklist-search}" 
+											 tooltip="{i18n>worklist-searchTooltip}" 
+											 search="onSearchWorklist" 
+											 width="auto"/>
+							</Toolbar>
+						</headerToolbar>
 						<columns>
 							<Column id="wl_col_id">
 								<Text text="{i18n>worklist-id}" id="wl_col_txt_id"/>

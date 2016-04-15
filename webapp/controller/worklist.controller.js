@@ -1,44 +1,76 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function(Controller) {
+	"sap/ui/core/mvc/Controller",
+	"sap/ui/model/Filter",
+	"sap/ui/model/FilterOperator"
+], function(Controller,Filter,FilterOperator) {
 	"use strict";
 
 	return Controller.extend("demo_app.com.controller.worklist", {
+	/**Initialization
+	 *	
+	 **/
+		onInit :function(){
+			
+			//Navigation and Routing
+			var oRouter = this.getRouter();
+			oRouter.getRoute("").attachMatched(this._onRouteMatched, this);
+			
+		},
+	
+	/**     NAVIGATION
+	 * 
+	 **/
+	
+	
+	/**		FILTERS
+	 *		
+	 *		1. TabIconBar -> OnIconSelectedWorklist
+	 *		2. Searchbox  -> OnSearchWorklist
+	 *		
+	 **/
+		
+		onIconSelectedWorklist:function(oEvent){
+		// This method filters the worklist table depending on the iconTabBar selection.
+		// so far only 2 options are implemented: Today, All
+			
+			//Variable Definitions
+			var aFilters = {};
+			var dateTodayStart	=  new Date();
+			var dateTodayEnd	= new Date();
+			var aKey;
+			
+			dateTodayEnd.setHours(23,59,0,0);
+			dateTodayStart.setHours(0,0,0,0);
+			
+			aKey = oEvent.getParameter("selectedKey"); //key is selected from view
+			aFilters = {
+				      "today": [new sap.ui.model.Filter("Date", "BT", dateTodayStart, dateTodayEnd )],
+				      "all": []
+				   };
+			
+			// filter binding
+			var oTable = this.getView().byId("wl_table");
+			var oBinding = oTable.getBinding("items");
+			oBinding.filter(aFilters[aKey]);
+				 
+		},
+		
+		onSearchWorklist: function(oEvent){
+		//onSearchWorklist This method filters the table with the search query.
+		
+			// build filter array
+			var aFilter = [];
+			var sQuery = oEvent.getParameter("query");
+			if (sQuery) {
+				aFilter.push(new Filter("Patient/FirstName", FilterOperator.Contains, sQuery));
+			}
 
-		/**
-		 * Called when a controller is instantiated and its View controls (if available) are already created.
-		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
-		 * @memberOf demo_app.com.view.worklist
-		 */
-		//	onInit: function() {
-		//
-		//	},
-
-		/**
-		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
-		 * (NOT before the first rendering! onInit() is used for that one!).
-		 * @memberOf demo_app.com.view.worklist
-		 */
-		//	onBeforeRendering: function() {
-		//
-		//	},
-
-		/**
-		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
-		 * This hook is the same one that SAPUI5 controls get after being rendered.
-		 * @memberOf demo_app.com.view.worklist
-		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
-
-		/**
-		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
-		 * @memberOf demo_app.com.view.worklist
-		 */
-		//	onExit: function() {
-		//
-		//	}
+			// filter binding
+			var oTable = this.getView().byId("wl_table");
+			var oBinding = oTable.getBinding("items");
+			oBinding.filter(aFilter);
+		}             
+		
 
 	});
 
