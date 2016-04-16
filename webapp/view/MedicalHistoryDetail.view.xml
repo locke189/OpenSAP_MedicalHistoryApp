@@ -1,0 +1,65 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:l="sap.ui.layout"
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>mhd-title}"
+				  navButtonPress="onNavBack" 
+				  showNavButton="true">
+				<content>
+					<Panel id="mhd-panel" 
+						   headerText="{i18n>mhd-panelheader}" 
+						   expandAnimation="false" 
+						   expanded="true">
+		        		<content>
+		        			<mvc:XMLView viewName="demo_app.com.view.MHDetailPanel"/>
+		            	</content>
+					</Panel>
+					<IconTabBar id="mhd-icontabbar" expandable="false">
+		    			<items>
+				            <IconTabFilter text="{i18n>mhd-itf-medicalinfo}" 
+				            			   icon="sap-icon://hint" 
+				            			   id="mhd-icontabbar-f1">
+								<content>
+									<mvc:XMLView viewName="demo_app.com.view.MHDetailsInfo"/>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter text="{i18n>mhd-itf-labs}" 
+										   icon="sap-icon://electrocardiogram" 
+										   id="mhd-icontabbar-f2">
+								<content>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter text="{i18n>mhd-itf-exam}" 
+										   icon="sap-icon://stethoscope" 
+										   id="mhd-icontabbar-f3">
+								<content>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter text="{i18n>mhd-itf-diag}" 
+										   icon="sap-icon://clinical-order" 
+										   id="mhd-icontabbar-f4">
+								<content>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter text="{i18n>mhd-itf-presc}" 
+										   icon="sap-icon://pharmacy" 
+										   id="mhd-icontabbar-f5">
+								<content>
+								</content>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

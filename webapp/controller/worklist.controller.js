@@ -1,19 +1,19 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller",
+	"./BaseController",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
-], function(Controller,Filter,FilterOperator) {
+], function(BaseController,Filter,FilterOperator) {
 	"use strict";
 
-	return Controller.extend("demo_app.com.controller.worklist", {
+	return BaseController.extend("demo_app.com.controller.worklist", {
 	/**Initialization
-	 *	
+	 *	.	binding of the data model
 	 **/
 		onInit :function(){
 			
-			//Navigation and Routing
+			//Navigation and Routing, binding of the data model
 			var oRouter = this.getRouter();
-			oRouter.getRoute("").attachMatched(this._onRouteMatched, this);
+			oRouter.getRoute("worklist").attachMatched(this._onRouteMatched, this);
 			
 		},
 	
@@ -21,6 +21,34 @@ sap.ui.define([
 	 * 
 	 **/
 	
+	_onRouteMatched: function(oEvent){
+		//Binding of the Appoinments to the data model
+		var oArgs, oView;
+		oArgs = oEvent.getParameter("arguments");
+		oView = this.getView();
+		
+		oView.bindElement({
+			path: "/Appointments",
+			events: {
+					dataRequested: function (oEvent) {
+						oView.setBusy(true);
+						},
+					dataReceived: function (oEvent) {
+						oView.setBusy(false);
+						}
+			}
+		});
+	},
+	
+	onPressRowWorklist: function(oEvent){
+	//method used for selecting an individual appointment and routing to
+	//the master/details page
+	    var oPatientId;
+	    oPatientId = oEvent.getSource().getBindingContext().getProperty("PatientID");
+		this.getRouter().navTo("medicalhistory", { patientId: oPatientId});
+	
+		
+	},
 	
 	/**		FILTERS
 	 *		
@@ -29,7 +57,7 @@ sap.ui.define([
 	 *		
 	 **/
 		
-		onIconSelectedWorklist:function(oEvent){
+		onIconSelectedWorklist: function(oEvent){
 		// This method filters the worklist table depending on the iconTabBar selection.
 		// so far only 2 options are implemented: Today, All
 			

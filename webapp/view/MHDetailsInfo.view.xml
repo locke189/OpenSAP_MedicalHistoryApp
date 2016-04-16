@@ -1,0 +1,142 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:l="sap.ui.layout"
+		  xmlns:f="sap.ui.layout.form"
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.BaseController"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+
+	<f:Form id="__form0">
+		<f:title>
+			<core:Title text="Patient Medical Information" 
+				   id="__title0" 
+				   emphasized="true"/>
+		</f:title>
+        <f:layout>
+			<f:ResponsiveGridLayout xmlns:sap.ui.layout.form="sap.ui.layout.form"
+									id="__layout0" 
+									labelSpanL="3" 
+									labelSpanM="3" 
+									labelSpanS="2" 
+									emptySpanL="3" 
+									emptySpanM="3" 
+									emptySpanS="0" 
+									columnsL="1" 
+									columnsM="1" 
+									singleContainerFullSize="true"/>
+			
+		</f:layout>
+		<f:formContainers>
+			<f:FormContainer id="__container0">
+		    	<f:formElements>
+		        	<f:FormElement id="__element0">
+		            	<f:label>
+		                	<Label text="Location" 
+		                		   width="100%" 
+		                		   id="__label0" 
+		                		   design="Bold" 
+		                		   textAlign="Center"/>
+						</f:label>
+		                <f:fields>
+							<Text text="{Location}" 
+								  maxLines="0" id="__text12"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:label>
+							<Label text="Allergies" 
+								   width="100%" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+						<f:fields> 
+							<Text text="{Patient/Allegies}" 
+								  maxLines="0"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement id="__element0_copy2">
+						<f:label>
+							<Label text="Relatives" 
+								   width="100%" 
+								   id="__label0_copy2" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+							<f:fields>
+								<Text text="N/A" 
+										  maxLines="0" 
+										  id="__text12_copy2"/>
+							</f:fields>
+					</f:FormElement>
+					<f:FormElement id="__element0_copy3">
+						<f:label>
+							<Label text="Insurance" 
+								   width="100%" 
+								   id="__label0_copy3" 
+								   design="Bold" 
+								   textAlign="Center"/>
+								
+						</f:label>
+						<f:fields>
+							<Text text="{Patient/Insurance}" 
+								  maxLines="0" 
+								  id="__text12_copy3"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:label>
+							<Label text="Blood Type" 
+								   width="100%" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+						<f:fields>
+							<Text text="{Patient/RH}" 
+								  maxLines="0" />
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement id="__element0_copy6">
+						<f:label>
+							<Label text="Address" 
+								   width="100%" 
+								   id="__label0_copy6" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+						<f:fields> 
+							<Text text="{Patient/Address}" 
+								  maxLines="0" 
+								  id="__text12_copy6"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:label>
+							<Label text="Phone" 
+								   width="100%" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+						<f:fields> 
+							<Text text="{Patient/Telephone}" 
+								  maxLines="0"/>
+						</f:fields>
+					</f:FormElement>
+					<f:FormElement>
+						<f:label>
+							<Label text="Email" 
+								   width="100%" 
+								   design="Bold" 
+								   textAlign="Center"/>
+						</f:label>
+						<f:fields> 
+							<Text text="{Patient/Email}" 
+								  maxLines="0"/>
+						</f:fields>
+					</f:FormElement>
+				</f:formElements>
+			</f:FormContainer>
+		</f:formContainers>
+	</f:Form>
+</mvc:View>
+					
+					

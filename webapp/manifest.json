@@ -94,6 +94,16 @@
 				"async": true
 			},
 			"routes": [{
+				"name": "medicalhistorydetails",
+				"pattern": "medicalhistory/{patientId}/{historyId}",
+				"greedy": false,
+				"target": ["medicalhistorylist", "medicalhistorydetails"]
+			}, {
+				"name": "medicalhistory",
+				"pattern": "medicalhistory/{patientId}",
+				"greedy": false,
+				"target": ["medicalhistorylist", "nomedicalhistorydetails"]
+			}, {
 				"pattern": "",
 				"name": "worklist",
 				"target": "worklist"
@@ -104,8 +114,51 @@
 					"transition": "slide",
 					"clearAggregation": "true",
 					"viewName": "worklist",
-					"viewId": "worklist",
 					"viewLevel": 1
+				},
+				"medicalhistory": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": "true",
+					"viewName": "MedicalHistories",
+					"viewLevel": 2,
+					"viewId": "medicalhistory"
+				},
+				"medicalhistorylist": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": "true",
+					"viewName": "MedicalHistoryList",
+					"viewLevel": 2,
+					"parent": "medicalhistory",
+					"controlAggregation": "masterPages",
+					"controlId": "splitapp",
+					"targetParent": "",
+					"viewId": "medicalhistorylist"
+				},
+				"medicalhistorydetails": {
+					"viewType": "XML",
+					"transition": "flip",
+					"clearAggregation": "true",
+					"viewName": "MedicalHistoryDetail",
+					"viewLevel": 4,
+					"parent": "medicalhistory",
+					"controlAggregation": "detailPages",
+					"controlId": "splitapp",
+					"targetParent": "",
+					"viewId": "medicalhistorydetail"
+				},
+				"nomedicalhistorydetails": {
+					"viewType": "XML",
+					"transition": "flip",
+					"clearAggregation": "true",
+					"viewName": "NoHistorySelected",
+					"viewId": "nohistoryselected",
+					"viewLevel": 3,
+					"controlAggregation": "detailPages",
+					"controlId": "splitapp",
+					"parent": "medicalhistory",
+					"targetParent": ""
 				}
 			}
 		}

@@ -1,0 +1,75 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m" 
+		  xmlns:l="sap.ui.layout"
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+
+							<FlexBox width="100%" 
+		            				 id="__box0_copy" 
+		            				 displayInline="true" 
+		            				 alignItems="Center" 
+		            				 justifyContent="SpaceBetween" 
+		            				 fitContainer="false">
+		                		<items>
+		                		    <l:HorizontalLayout id="__layout6">
+		                        		<l:content>
+		                            		<Image width="140px" 
+		                            			   height="140px" 
+		                            			   id="mhd-image" 
+		                            			   class="sapUiSmallMarginEnd" 
+		                            			   src="{Patient/PhotoURL}"/>
+			
+		                            		<l:VerticalLayout width="100%">
+		                                		<l:content>
+		                                    		<Title text="{Patient/FirstName} {Patient/LastName}" 
+		                                    			   width="100%" 
+		                                    			   class="sapUiSmallMarginEnd" 
+		                                    			   level="H1" 
+		                                    			   titleStyle="H3"/>
+			
+		                                    		<ObjectAttribute text="{Patient/Gender}" 
+		                                    						 active="false"/>
+		                                    		<ObjectAttribute class="sapUiSmallMarginEnd" 
+		                                    						 text="{path: 'Patient/DateOfBirth', type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'MM/dd/yyyy' }  }" 
+		                                    						 active="false" />
+		                                    		<ObjectAttribute class="sapUiSmallMarginEnd" 
+		                                    						 text="{Patient/Country} - {Patient/City}" 
+		                                    						 active="false" />
+					                                <ObjectAttribute class="sapUiSmallMarginEnd" 
+					                                				 text="{Patient/Email}" 
+					                                				 active="false" />
+		                                    		<ObjectAttribute class="sapUiSmallMarginEnd" 
+		                                    						 text="{Patient/Telephone}" 
+		                                    						 active="false" />
+		    	                                </l:content>
+		                            		</l:VerticalLayout>
+		                        		</l:content>
+		                    		</l:HorizontalLayout>
+			                    	<l:VerticalLayout width="100%">
+			                    		<l:content>
+				                            <ObjectStatus title="{i18n>mhd-panel-mh_id_txt}" 
+				                            			  textDirection="RTL"/>
+				                            <Text text="{i18n>mhd-panel-mh_tag} - {MedicalHistoryID}" 
+				                            	  maxLines="0"  
+				                            	  textAlign="Right" 
+				                            	  width="100%"/>
+				                            <ObjectStatus title="{i18n>mhd-panel-physician_txt}" 
+				                            			  textDirection="RTL"/>
+				                            <Text text="{Physician}" 
+				                            	  maxLines="0" 
+				                            	  textAlign="Right" 
+				                            	  width="100%"/>
+				                            <ObjectStatus id="__status1_copy2" 
+				                            			  title="{i18n>mhd-panel-date_txt}" 
+				                            			  textDirection="RTL"/>
+				                            <Text text="{path: 'Date', type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'MM/dd/yyyy' } } - {path: 'Date', type: 'sap.ui.model.type.Date', formatOptions: { pattern: 'HH:MM:SS' } } " 
+				                            	  maxLines="0" 
+				                            	  id="__text5_copy2" 
+				                            	  textAlign="Right" 
+				                            	  width="100%"/>
+				                        </l:content>
+				                    </l:VerticalLayout>
+	    	                	</items>
+			    	        </FlexBox>
+</mvc:View>

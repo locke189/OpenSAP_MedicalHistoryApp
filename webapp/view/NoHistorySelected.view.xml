@@ -1,0 +1,15 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.BaseController"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+	<MessagePage
+		id="page"
+		title="{i18n>selectHistory}"
+		text="{i18n>noHistorySelected}"
+		icon="sap-icon://clinical-order"
+		description="{i18n>noHistorySelectedDescription}"
+		showNavButton="{device>/system/phone}"
+		navButtonPress="onNavBack">
+	</MessagePage>
+</mvc:View>

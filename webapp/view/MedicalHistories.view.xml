@@ -1,0 +1,7 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.MedicalHistories"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+	<SplitApp id="splitapp"/>
+</mvc:View>
