@@ -31,6 +31,7 @@
 										   icon="sap-icon://electrocardiogram" 
 										   id="mhd-icontabbar-f2">
 								<content>
+									<mvc:XMLView viewName="demo_app.com.view.MHDetailsLabs"/>
 								</content>
 							</IconTabFilter>
 							<IconTabFilter text="{i18n>mhd-itf-exam}" 

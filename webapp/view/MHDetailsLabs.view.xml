@@ -4,6 +4,37 @@
 		  controllerName="demo_app.com.controller.BaseController"
 		  xmlns:html="http://www.w3.org/1999/xhtml">
 
-	
-	
+	<Table noDataText="Drop column list items here and columns in the area above" id="__table0">
+	    <items>
+	        <ColumnListItem counter="0" id="__item0">
+	            <cells>
+	                <Link xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" text="Link to URL" id="__link0"/>
+	                <Text text="&lt;Blood&gt;" maxLines="0" id="__text6"/>
+	                <Text text="&lt;Date&gt;" maxLines="0" id="__text7"/>
+	                <Text text="&lt;Blood lab description&gt;" maxLines="0" id="__text8"/></cells>
+	        </ColumnListItem></items>
+	    <columns>
+	        <Column id="__column0">
+	            <header>
+	                <Label text="ID" id="__label1"/>
+	            </header>
+	        </Column>
+	        <Column id="__column1">
+	            <header>
+	                <Label text="Lab Type" id="__label2"/>
+	            </header>
+	        </Column>
+	        <Column id="__column2">
+	            <header>
+	                <Label text="Date" id="__label3"/>
+	            </header>
+	        </Column>
+	        <Column xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" id="__column2_copy">
+	            <header>
+	                <Label text="Description" id="__label3_copy"/>
+	            </header>
+        	</Column>
+        </columns>
+    </Table>
+    
 </mvc:View>
