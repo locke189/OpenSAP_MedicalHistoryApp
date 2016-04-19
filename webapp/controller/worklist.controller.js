@@ -1,8 +1,9 @@
 sap.ui.define([
 	"./BaseController",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"
-], function(BaseController,Filter,FilterOperator) {
+	"sap/ui/model/FilterOperator",
+	'sap/m/MessageToast'
+], function(BaseController,Filter,FilterOperator,MessageToast) {
 	"use strict";
 
 	return BaseController.extend("demo_app.com.controller.worklist", {
@@ -15,7 +16,16 @@ sap.ui.define([
 			var oRouter = this.getRouter();
 			oRouter.getRoute("worklist").attachMatched(this._onRouteMatched, this);
 			
+			
 		},
+	
+	mySuccessHandler: function(response){
+		MessageToast.show(response);
+	}, 
+	
+	myErrorHandler: function(){
+		MessageToast.show("Success!");
+	}, 
 	
 	/**     NAVIGATION
 	 * 

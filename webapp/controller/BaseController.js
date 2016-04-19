@@ -6,6 +6,14 @@ sap.ui.define([
 
 		return Controller.extend("demo_app.com.controller.BaseController", {
 		
+			onInit : function(){
+			
+			//how many medical hstories there are?
+				this._MHID = 100;
+			
+				
+			},
+		
 			/** Navigation Public methods
 			 * 
 			 **/

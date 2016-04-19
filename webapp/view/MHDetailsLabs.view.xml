@@ -1,18 +1,11 @@
 <mvc:View xmlns:core="sap.ui.core" 
 		  xmlns:mvc="sap.ui.core.mvc" 
 		  xmlns="sap.m" 
-		  controllerName="demo_app.com.controller.BaseController"
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
 		  xmlns:html="http://www.w3.org/1999/xhtml">
 
 	<Table noDataText="Drop column list items here and columns in the area above" id="__table0">
-	    <items>
-	        <ColumnListItem counter="0" id="__item0">
-	            <cells>
-	                <Link xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" text="Link to URL" id="__link0"/>
-	                <Text text="&lt;Blood&gt;" maxLines="0" id="__text6"/>
-	                <Text text="&lt;Date&gt;" maxLines="0" id="__text7"/>
-	                <Text text="&lt;Blood lab description&gt;" maxLines="0" id="__text8"/></cells>
-	        </ColumnListItem></items>
+
 	    <columns>
 	        <Column id="__column0">
 	            <header>
@@ -35,6 +28,18 @@
 	            </header>
         	</Column>
         </columns>
+    
+    	<items>
+	        <ColumnListItem counter="0" id="__item0">
+	            <cells>
+	                <Link text="{LabCode}" id="__link0"/>
+	                <Text text="{LabAttachment};" maxLines="0" id="__text6"/>
+	                <Text text="{Date};" maxLines="0" id="__text7"/>
+	                <Text text="{LabAttachment}" maxLines="0" id="__text8"/></cells>
+	        </ColumnListItem>
+	    </items>
+    
     </Table>
+    
     
 </mvc:View>

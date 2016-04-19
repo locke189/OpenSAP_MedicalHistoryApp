@@ -1,0 +1,63 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m" 
+		  xmlns:f="sap.ui.layout.form"
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+
+
+	<Table>
+        <items>
+            <ColumnListItem counter="0" id="__item0_copy2">
+                <cells>
+	                <Text text="{DiagnosticCode};" maxLines="0" id="__text6_copy3"/>
+                    <Text text="{Diagnostic}" maxLines="0" id="__text6_copy2"/>
+                    <Text text="{DiagnosticDescription}" maxLines="0" id="__text8_copy2"/>
+                </cells>
+            </ColumnListItem>
+		</items>
+        <columns>
+            <Column id="__column0_copy2">
+                <header>
+                    <Label text="Code" id="__label1_copy2"/>
+                </header>
+            </Column>
+            <Column id="__column1_copy2">
+                <header>
+                    <Label text="Prognosis" id="__label2_copy2"/>
+                </header>
+            </Column>
+            <Column>
+                <header>
+                    <Label text="Description" id="__label3_copy4"/>
+                </header>
+            </Column>
+        </columns>
+	</Table>
+		
+	
+		
+    <f:Form >
+        <f:title>
+            <core:Title text="Analysis" id="__title0_copy2" emphasized="true"/>
+        </f:title>
+        <f:layout>
+            <f:ResponsiveGridLayout labelSpanL="12" labelSpanM="12" emptySpanL="3" emptySpanM="3" emptySpanS="0" columnsL="1" columnsM="1" singleContainerFullSize="true" labelSpanS="12"/>
+        </f:layout>
+        <f:formContainers>
+            <f:FormContainer>
+                <f:formElements>
+                    <f:FormElement>
+                        <f:label>
+                            <Label text="Findings" width="100%" id="__label0_copy9" design="Bold" textAlign="Left"/>
+                        </f:label>
+    	                <f:fields>
+							<TextArea wrapping="None" value="{DiagnosticAnalysis}" rows="5"/>
+	                    </f:fields>
+                    </f:FormElement>
+                </f:formElements>
+            </f:FormContainer>
+        </f:formContainers>
+    </f:Form>
+    
+</mvc:View>

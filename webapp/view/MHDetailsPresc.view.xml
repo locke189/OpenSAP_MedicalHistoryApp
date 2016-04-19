@@ -1,0 +1,90 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns="sap.m"
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
+		  xmlns:f="sap.ui.layout.form"
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+
+
+	<Table>
+        <items>
+            <ColumnListItem counter="0">
+                <cells>
+	                <Text text="{PrescriptionMedicine};" maxLines="0" />
+                    <Text text="{PrescriptionDosage}" maxLines="0" />
+                    <Text text="{PrescriptionDescription}" maxLines="0" />
+                </cells>
+            </ColumnListItem>
+		</items>
+        <columns>
+            <Column >
+                <header>
+                    <Label text="Medicine"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Label text="Dosage" />
+                </header>
+            </Column>
+            <Column>
+                <header>
+                    <Label text="Description"/>
+                </header>
+            </Column>
+        </columns>
+	</Table>
+	
+	<Table>
+        <items>
+            <ColumnListItem counter="0">
+                <cells>
+	                <Text text="{ControlCode};" maxLines="0" />
+                    <Text text="{Control}" maxLines="0" />
+                    <Text text="{ControlDescription}" maxLines="0" />
+                </cells>
+            </ColumnListItem>
+		</items>
+        <columns>
+            <Column >
+                <header>
+                    <Label text="Code"/>
+                </header>
+            </Column>
+            <Column >
+                <header>
+                    <Label text="Exam" />
+                </header>
+            </Column>
+            <Column>
+                <header>
+                    <Label text="Description"/>
+                </header>
+            </Column>
+        </columns>
+	</Table>
+	
+	    <f:Form >
+        <f:title>
+            <core:Title text="Additional Information" emphasized="true"/>
+        </f:title>
+        <f:layout>
+            <f:ResponsiveGridLayout labelSpanL="12" labelSpanM="12" emptySpanL="3" emptySpanM="3" emptySpanS="0" columnsL="1" columnsM="1" singleContainerFullSize="true" labelSpanS="12"/>
+        </f:layout>
+        <f:formContainers>
+            <f:FormContainer>
+                <f:formElements>
+                    <f:FormElement>
+                        <f:label>
+                            <Label text="Findings" width="100%"  design="Bold" textAlign="Left"/>
+                        </f:label>
+    	                <f:fields>
+							<TextArea wrapping="None" value="Prescription Additional Information" rows="5"/>
+	                    </f:fields>
+                    </f:FormElement>
+                </f:formElements>
+            </f:FormContainer>
+        </f:formContainers>
+    </f:Form>
+    
+</mvc:View>

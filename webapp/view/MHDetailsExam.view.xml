@@ -1,0 +1,75 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  xmlns:f="sap.ui.layout.form"
+		  xmlns="sap.m" 
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
+	      xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	
+	<f:Form>
+        <f:title>
+            <core:Title text="Examination" emphasized="true"/>
+		</f:title>
+        <f:layout>
+        	<f:ResponsiveGridLayout id="__layout0_copy3" 
+        							labelSpanL="12" 
+        							labelSpanM="12" 
+        							emptySpanL="3" 
+        							emptySpanM="3" 
+        							emptySpanS="0" 
+        							columnsL="1" 
+        							columnsM="1" 
+        							singleContainerFullSize="true" 
+        							labelSpanS="12"/>
+        </f:layout>
+        <f:formContainers>
+            <f:FormContainer id="__container0_copy">
+                <f:formElements>
+                    <f:FormElement>
+                        <f:label>
+                            <Label text="Findings" 
+                            	   width="100%" 
+                            	   design="Bold" 
+                            	   textAlign="Left"/>
+                        </f:label>
+                        <f:fields>
+                            <TextArea wrapping="None" 
+                            		  rows="5"
+                            		  value="{ExaminationAnalysis}"/>
+                        </f:fields>
+                    </f:FormElement>
+                </f:formElements>
+            </f:FormContainer>
+        </f:formContainers>
+	</f:Form>
+			
+   <Table>
+        <items>
+            <ColumnListItem counter="0" id="__item0_copy">
+                <cells>
+                	<Link text="Link to URL" id="__link0_copy"/>
+                    <Text text="type" maxLines="0" id="__text6_copy"/>
+                    <Text text="{ExaminationAttachments}" maxLines="0" id="__text8_copy"/>
+                </cells>
+        	</ColumnListItem>
+        </items>
+        <columns>
+            <Column id="__column0_copy">
+                <header>
+                    <Label text="ID" id="__label1_copy"/>
+        		</header>
+            </Column>
+            <Column id="__column1_copy">
+                <header>
+                    <Label text="File" id="__label2_copy"/>
+	            </header>
+           </Column>
+           <Column id="__column2_copy3">
+           		<header>
+			        <Label text="Description" id="__label3_copy3"/>
+                </header>
+			</Column>
+        </columns>
+   </Table>
+ 
+</mvc:View>

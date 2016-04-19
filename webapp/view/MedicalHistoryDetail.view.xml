@@ -38,18 +38,21 @@
 										   icon="sap-icon://stethoscope" 
 										   id="mhd-icontabbar-f3">
 								<content>
+									<mvc:XMLView viewName="demo_app.com.view.MHDetailsExam"/>
 								</content>
 							</IconTabFilter>
 							<IconTabFilter text="{i18n>mhd-itf-diag}" 
 										   icon="sap-icon://clinical-order" 
 										   id="mhd-icontabbar-f4">
 								<content>
+									<mvc:XMLView viewName="demo_app.com.view.MHDetailsDiag"/>
 								</content>
 							</IconTabFilter>
 							<IconTabFilter text="{i18n>mhd-itf-presc}" 
 										   icon="sap-icon://pharmacy" 
 										   id="mhd-icontabbar-f5">
 								<content>
+									<mvc:XMLView viewName="demo_app.com.view.MHDetailsPresc"/>
 								</content>
 							</IconTabFilter>
 						</items>
@@ -58,6 +61,8 @@
 				<footer>
 					<Toolbar>
 						<ToolbarSpacer/>
+						<Button text="Save as Draft" press="onPressDraft" />	
+						<Button text="Submit / Save Changes" type="Emphasized" press="onPressSubmit" />
 					</Toolbar>
 				</footer>
 			</Page>

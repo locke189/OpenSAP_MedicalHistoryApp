@@ -12,7 +12,7 @@
 				<content>
 					
 					<List id="mhl_list" 
-						  items="{path: 'MedicalHistory', parameters: { expand: 'Patient' } }" 
+						  items="{path: 'MedicalHistory', parameters: { expand: 'Patient' }, sorter: { path: 'MedicalHistoryID', descending: true } }" 
 						  growing="true" 
 						  growingScrollToLoad="true">
 	
@@ -44,7 +44,7 @@
 				<footer>
 					<Toolbar>
 						<ToolbarSpacer/>
-						<Button icon="sap-icon://add" />
+						<Button icon="sap-icon://add" press="onPressNewMH" />
 					</Toolbar>
 				</footer>
 			</Page>

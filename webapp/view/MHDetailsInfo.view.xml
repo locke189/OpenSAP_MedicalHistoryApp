@@ -3,7 +3,7 @@
 		  xmlns:l="sap.ui.layout"
 		  xmlns:f="sap.ui.layout.form"
 		  xmlns="sap.m" 
-		  controllerName="demo_app.com.controller.BaseController"
+		  controllerName="demo_app.com.controller.MedicalHistoryDetail"
 		  xmlns:html="http://www.w3.org/1999/xhtml">
 
 	<f:Form id="__form0">
@@ -138,5 +138,3 @@
 		</f:formContainers>
 	</f:Form>
 </mvc:View>
-					
-					
