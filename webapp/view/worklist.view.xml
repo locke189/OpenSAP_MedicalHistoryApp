@@ -32,7 +32,7 @@
 										   id="wl_itb_filter_today"/>
 						</items>
 					
-					</IconTabBar>
+				</IconTabBar>
 					
 					<Table id="wl_table" 
 						   width="auto" 

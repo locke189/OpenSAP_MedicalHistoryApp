@@ -11,21 +11,11 @@ sap.ui.define([
 	 *	.	binding of the data model
 	 **/
 		onInit :function(){
-			
 			//Navigation and Routing, binding of the data model
 			var oRouter = this.getRouter();
 			oRouter.getRoute("worklist").attachMatched(this._onRouteMatched, this);
-			
-			
 		},
 	
-	mySuccessHandler: function(response){
-		MessageToast.show(response);
-	}, 
-	
-	myErrorHandler: function(){
-		MessageToast.show("Success!");
-	}, 
 	
 	/**     NAVIGATION
 	 * 

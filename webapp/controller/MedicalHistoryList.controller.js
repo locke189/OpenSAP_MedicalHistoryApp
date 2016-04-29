@@ -25,17 +25,17 @@ sap.ui.define([
 	
 	onPressNewMH: function(){
 		var oData, oModel, oContext, oDate, mhid;
-		mhid = this.getView().getModel("appView").getProperty("/mhid");
-		console.log(mhid);
-		mhid = mhid + 1;
-		console.log(mhid);
-		this.getView().getModel("appView").setProperty("/mhid",mhid);
-		oDate = new Date();
+		//We need to retreive the medical history number
+		mhid = this.getView().getModel("appView").getProperty("/mhid"); 
+		mhid = mhid + 1; //next medical history number
+		this.getView().getModel("appView").setProperty("/mhid",mhid); //saving pointer
+		oDate = new Date(); //Today's date
+		//blank data
 		oData = {
 					"MedicalHistoryID": String(mhid),
 					"PatientID":this._oPatient,
 					"Location": "Hope Clinic",
-					"Physician": "Valentina D",
+					"Physician": "Valentina Jones",
 					"Date": oDate,
 					"Time": "",
 					"LabCode": "",
@@ -56,7 +56,7 @@ sap.ui.define([
 					};
 		
 		oModel = this.getView().getModel();
-		oContext = oModel.create("/MedicalHistories",oData);
+		oContext = oModel.create("/MedicalHistories",oData); //saving new data
 		oModel.submitChanges({success: this.mySuccessHandler, error: this.myErrorHandler});
 		this.getRouter().navTo("medicalhistorydetails", { patientId: this._oPatient,
 															  historyId: mhid } );
@@ -68,7 +68,7 @@ sap.ui.define([
 	}, 
 	
 	myErrorHandler: function(){
-		MessageToast.show("Success!");
+		MessageToast.show("Error!");
 	}, 
 	
 	/**     NAVIGATION

@@ -9,7 +9,8 @@ sap.ui.define([
 			onInit : function (){
 			var oViewModel;
 			oViewModel = new JSONModel({
-				mhid: 100
+				//counter for next medical history ID
+				mhid: 100 // this should be retreived from the backend
 				});
 			this.getView().setModel(oViewModel, "appView");
 			}

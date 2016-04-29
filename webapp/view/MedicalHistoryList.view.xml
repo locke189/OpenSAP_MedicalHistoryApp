@@ -41,12 +41,14 @@
 				    </List>
 					
 				</content>
+				
 				<footer>
 					<Toolbar>
 						<ToolbarSpacer/>
 						<Button icon="sap-icon://add" press="onPressNewMH" />
 					</Toolbar>
 				</footer>
+			
 			</Page>
 		</pages>
 	</App>
